@@ -1,0 +1,94 @@
+Control ID,Control Name,Theme,Applicable,Justification,Implementation Status,Implementation Description,Reference
+A.5.1,Policies for information security,Organizational,Yes,Required by ISO 27001 5.2 and regulatory expectations,Implemented,Information Security Policy approved by CEO and communicated,POL-001
+A.5.2,Information security roles and responsibilities,Organizational,Yes,Required to assign accountability,Implemented,RACI matrix and role descriptions,RACI matrix
+A.5.3,Segregation of duties,Organizational,Yes,Required to prevent fraud and error,Implemented,Separation enforced in finance and IT administration,Access Control Policy
+A.5.4,Management responsibilities,Organizational,Yes,Required for management commitment,Implemented,Documented in ISP and management review minutes,POL-001
+A.5.5,Contact with authorities,Organizational,Yes,Required for regulator/LE contact,Implemented,Authority contact list maintained,Security Operations Policy
+A.5.6,Contact with special interest groups,Organizational,Yes,Improves threat awareness,Implemented,Membership in Allianz für Cybersicherheit + ISACA,SecOps register
+A.5.7,Threat intelligence,Organizational,Yes,Required to inform risk treatment,Implemented,Subscription to BSI CSW + CERT-EU feed,SecOps dashboard
+A.5.8,Information security in project management,Organizational,Yes,Required for secure projects,Implemented,Security tollgate in project methodology,POL-013
+A.5.9,Inventory of information and other associated assets,Organizational,Yes,Required to protect assets,Implemented,Asset register maintained,Asset register
+A.5.10,Acceptable use of information and other associated assets,Organizational,Yes,Required for user accountability,Implemented,Acceptable Use Policy acknowledged by all staff,POL-004
+A.5.11,Return of assets,Organizational,Yes,Required at termination,Implemented,Part of leaver checklist,HR Security Policy
+A.5.12,Classification of information,Organizational,Yes,Required for proportional protection,Implemented,4-level scheme: Public/Internal/Confidential/Strictly Confidential,POL-007
+A.5.13,Labelling of information,Organizational,Yes,Required to operationalise classification,Implemented,Document templates carry classification labels,POL-007
+A.5.14,Information transfer,Organizational,Yes,Required for secure sharing,Implemented,Information Transfer Policy + secure portal,POL-008
+A.5.15,Access control,Organizational,Yes,Required to protect access,Implemented,Access Control Policy + RBAC,POL-005
+A.5.16,Identity management,Organizational,Yes,Required for unique identities,Implemented,Central IdP (Entra ID),Access Control Policy
+A.5.17,Authentication information,Organizational,Yes,Required to protect credentials,Implemented,MFA enforced + password manager,Access Control Policy
+A.5.18,Access rights,Organizational,Yes,Required for least privilege,Implemented,Quarterly access review,Access Control Policy
+A.5.19,Information security in supplier relationships,Organizational,Yes,Third-party risk,Implemented,Supplier Security Policy + screening,POL-010
+A.5.20,Addressing information security within supplier agreements,Organizational,Yes,Contractual requirement,Implemented,Security clauses in all supplier contracts,POL-010
+A.5.21,Managing information security in the ICT supply chain,Organizational,Yes,Supply chain risk,Implemented,SBOM requirements for critical SW,POL-010
+A.5.22,Monitoring review and change management of supplier services,Organizational,Yes,Required for ongoing assurance,Implemented,Annual supplier review,POL-010
+A.5.23,Information security for use of cloud services,Organizational,Yes,Cloud usage present,Implemented,Cloud provider assessment checklist,POL-010
+A.5.24,Information security incident management planning and preparation,Organizational,Yes,Required for incident readiness,Implemented,Incident Response Plan,PROC-001
+A.5.25,Assessment and decision on information security events,Organizational,Yes,Required to triage events,Implemented,Triage process in IRP,PROC-001
+A.5.26,Response to information security incidents,Organizational,Yes,Required for containment,Implemented,Runbooks for top 10 incident types,PROC-001
+A.5.27,Learning from information security incidents,Organizational,Yes,Required for improvement,Implemented,Post-incident review template,PROC-001
+A.5.28,Collection of evidence,Organizational,Yes,Required for investigations,Implemented,Chain-of-custody procedure,PROC-001
+A.5.29,Information security during disruption,Organizational,Yes,BCM integration,Implemented,BCP + security requirements during disruption,POL-009
+A.5.30,ICT readiness for business continuity,Organizational,Yes,BCM integration,Implemented,DR Plan + tests,PROC-003
+A.5.31,Legal statutory regulatory and contractual requirements,Organizational,Yes,Compliance obligation,Implemented,Legal register maintained,Legal register
+A.5.32,Intellectual property rights,Organizational,Yes,Required to manage IPR,Implemented,IPR Policy + software asset controls,POL-012
+A.5.33,Protection of records,Organizational,Yes,Required for integrity and retention,Implemented,Record retention schedule,DPO procedure
+A.5.34,Privacy and protection of PII,Organizational,Yes,GDPR obligation,Implemented,Data Protection Policy + DPO,POL-018
+A.5.35,Independent review of information security,Organizational,Yes,Required by ISO 27001 9.2,Implemented,Annual external audit,Audit plan
+A.5.36,Compliance with policies rules and standards,Organizational,Yes,Required for assurance,Implemented,Quarterly policy conformance check,POL-003
+A.5.37,Documented operating procedures,Organizational,Yes,Required for operations,Implemented,Runbook library,IT Operations Policy
+A.6.1,Screening,People,Yes,Required pre-employment,Implemented,Background check for sensitive roles,POL-006
+A.6.2,Terms and conditions of employment,People,Yes,Required for accountability,Implemented,Security clauses in employment contract,POL-006
+A.6.3,Information security awareness education and training,People,Yes,Required for competence,Implemented,Annual awareness training + phishing,POL-006
+A.6.4,Disciplinary process,People,Yes,Required for enforcement,Implemented,HR disciplinary procedure,POL-006
+A.6.5,Responsibilities after termination or change of employment,People,Yes,Required for offboarding,Implemented,Leaver checklist,POL-006
+A.6.6,Confidentiality or non-disclosure agreements,People,Yes,Required to protect information,Implemented,NDAs signed at onboarding,POL-006
+A.6.7,Remote working,People,Yes,Remote working exists,Implemented,Remote Working Policy + managed endpoints,POL-014
+A.6.8,Information security event reporting,People,Yes,Required for detection,Implemented,Reporting channel + training,POL-004
+A.7.1,Physical security perimeters,Physical,Yes,On-premises offices exist,Implemented,Badge + monitored perimeter,POL-015
+A.7.2,Physical entry,Physical,Yes,Required,Implemented,Badge access + visitor log,POL-015
+A.7.3,Securing offices rooms and facilities,Physical,Yes,Required,Implemented,Locked rooms for sensitive areas,POL-015
+A.7.4,Physical security monitoring,Physical,Yes,Required,Implemented,CCTV at main entrances,POL-015
+A.7.5,Protecting against physical and environmental threats,Physical,Yes,Required,Implemented,Fire protection + water sensors,POL-015
+A.7.6,Working in secure areas,Physical,Yes,Required,Implemented,Clean desk rule for secure rooms,POL-015
+A.7.7,Clear desk and clear screen,Physical,Yes,Required,Implemented,Clean desk policy,POL-015
+A.7.8,Equipment siting and protection,Physical,Yes,Required,Implemented,Server room access controls,POL-015
+A.7.9,Security of assets off-premises,Physical,Yes,Laptops used off-site,Implemented,Device encryption + tracking,POL-016
+A.7.10,Storage media,Physical,Yes,Removable media used,Implemented,Encrypted USB only + register,POL-016
+A.7.11,Supporting utilities,Physical,Yes,Required,Implemented,UPS + generator tests,POL-015
+A.7.12,Cabling security,Physical,Yes,Required,Implemented,Cable ducts protected,POL-015
+A.7.13,Equipment maintenance,Physical,Yes,Required,Implemented,Maintenance schedule,POL-019
+A.7.14,Secure disposal or re-use of equipment,Physical,Yes,Required,Implemented,Certified disposal vendor,POL-018
+A.8.1,User endpoint devices,Technological,Yes,Required,Implemented,Managed endpoints with MDM,POL-016
+A.8.2,Privileged access rights,Technological,Yes,Required,Implemented,PAM solution + MFA,POL-005
+A.8.3,Information access restriction,Technological,Yes,Required,Implemented,Application-level RBAC,POL-005
+A.8.4,Access to source code,Technological,Yes,Development in-house,Implemented,Git repo access control,POL-021
+A.8.5,Secure authentication,Technological,Yes,Required,Implemented,MFA + strong auth policy,POL-005
+A.8.6,Capacity management,Technological,Yes,Required,Implemented,Capacity monitoring,POL-019
+A.8.7,Protection against malware,Technological,Yes,Required,Implemented,EDR on all endpoints + servers,POL-016
+A.8.8,Management of technical vulnerabilities,Technological,Yes,Required,Implemented,Monthly vuln scan + patching,POL-019
+A.8.9,Configuration management,Technological,Yes,Required,Implemented,Hardened baselines + drift checks,POL-020
+A.8.10,Information deletion,Technological,Yes,Required,Implemented,Deletion procedures per data type,POL-018
+A.8.11,Data masking,Technological,Yes,Required for dev/test,Implemented,Masking in non-prod environments,POL-018
+A.8.12,Data leakage prevention,Technological,Yes,Required,Partially implemented,Email DLP in place, endpoint DLP planned,POL-018
+A.8.13,Information backup,Technological,Yes,Required,Implemented,3-2-1 backup strategy,POL-019
+A.8.14,Redundancy of information processing facilities,Technological,Yes,Required,Implemented,HA clusters for critical systems,POL-019
+A.8.15,Logging,Technological,Yes,Required,Implemented,Centralised logging + SIEM,POL-019
+A.8.16,Monitoring activities,Technological,Yes,Required,Implemented,24/7 monitoring by SOC,POL-019
+A.8.17,Clock synchronisation,Technological,Yes,Required for forensics,Implemented,NTP from trusted source,POL-019
+A.8.18,Use of privileged utility programs,Technological,Yes,Required,Implemented,Restricted to admins + logged,POL-005
+A.8.19,Installation of software on operational systems,Technological,Yes,Required,Implemented,Whitelisting + change control,POL-020
+A.8.20,Networks security,Technological,Yes,Required,Implemented,Segmentation + firewalls,POL-019
+A.8.21,Security of network services,Technological,Yes,Required,Implemented,Hardened services + monitoring,POL-019
+A.8.22,Segregation of networks,Technological,Yes,Required,Implemented,VLANs for prod/dev/guest,POL-019
+A.8.23,Web filtering,Technological,Yes,Required,Implemented,Secure web gateway,POL-019
+A.8.24,Use of cryptography,Technological,Yes,Required,Implemented,Cryptography Policy + key register,POL-017
+A.8.25,Secure development life cycle,Technological,Yes,In-house development,Implemented,Secure SDLC with gates,POL-021
+A.8.26,Application security requirements,Technological,Yes,Required,Implemented,Security requirements in user stories,POL-021
+A.8.27,Secure system architecture and engineering principles,Technological,Yes,Required,Implemented,Reference architecture,POL-021
+A.8.28,Secure coding,Technological,Yes,Required,Implemented,SAST + peer review,POL-021
+A.8.29,Security testing in development and acceptance,Technological,Yes,Required,Implemented,DAST + release gate,POL-021
+A.8.30,Outsourced development,Technological,No,No outsourced development,N/A,No outsourced development performed,POL-021
+A.8.31,Separation of development test and production environments,Technological,Yes,Required,Implemented,Separate tenants and data,POL-021
+A.8.32,Change management,Technological,Yes,Required,Implemented,CAB + change register,POL-020
+A.8.33,Test information,Technological,Yes,Required,Implemented,Masked test data,POL-021
+A.8.34,Protection of information systems during audit testing,Technological,Yes,Required,Implemented,Read-only audit accounts,POL-021

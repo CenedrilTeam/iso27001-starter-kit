@@ -1,0 +1,13 @@
+ID,Lieferant,Leistung,Kategorie,Kritikalität,Datenzugriff,Standort,Vertragsbeginn,Vertragsende,AVV unterzeichnet,Zertifizierungen,Letzte Prüfung,Prüfergebnis,Nächste Prüfung,Status,Verantwortlich
+SUP-001,Amazon Web Services,Cloud-Infrastruktur (eu-central-1),IaaS,Kritisch,Kundendatenbank + Backups,Frankfurt DE,2023-01-01,2026-12-31,Ja,ISO 27001 SOC 2 C5,2026-01-15,Zufriedenstellend,2027-01-15,Aktiv,IT-Betriebsleitung
+SUP-002,Microsoft,M365 + Azure AD,SaaS,Kritisch,E-Mail + Dateien + Identität,EU-Cloud,2022-06-01,2026-05-31,Ja,ISO 27001 SOC 2 C5,2025-11-20,Zufriedenstellend,2026-11-20,Aktiv,ISB
+SUP-003,Personio,HR SaaS,SaaS,Hoch,Mitarbeiter-Stammdaten Lohnabrechnung,München DE,2023-03-01,2026-02-28,Ja,ISO 27001,2025-12-01,Zufriedenstellend,2026-12-01,Aktiv,HR-Leitung
+SUP-004,Vendor X Logistics,Logistikportal SaaS,SaaS,Kritisch,Kundensendungen,Amsterdam NL,2024-01-01,2027-12-31,Ja,ISO 27001,2026-02-10,Zufriedenstellend - ein kleines Finding,2027-02-10,Aktiv,Operationsleitung
+SUP-005,SecureIT GmbH,Datenvernichtung,Dienstleistung,Niedrig,Physische Medien,Hamburg DE,2022-01-01,2026-12-31,N/A,DIN 66399,2025-09-01,Zufriedenstellend,2026-09-01,Aktiv,IT-Betriebsleitung
+SUP-006,CleanOffice GmbH,Büroreinigung,Dienstleistung,Niedrig,Physische Räumlichkeiten,Hamburg DE,2023-06-01,2026-05-31,Nein (nur NDA),N/A,2025-10-01,Zufriedenstellend,2026-10-01,Aktiv,Facility-Leitung
+SUP-007,Fortinet (über Reseller),Firewall-Hardware + Support,Hardware/Support,Hoch,Netzwerk-Metadaten,Fernwartung,2024-01-01,2027-12-31,N/A,ISO 27001 (Anbieter),2025-12-10,Zufriedenstellend,2026-12-10,Aktiv,IT-Betriebsleitung
+SUP-008,Splunk,SIEM SaaS,SaaS,Hoch,Log-Daten (inkl. PII-Metadaten),EU-Cloud,2023-09-01,2026-08-31,Ja,ISO 27001 SOC 2,2026-01-25,Zufriedenstellend,2027-01-25,Aktiv,ISB
+SUP-009,Kanzlei Weber & Partner,Rechtsberatung,Dienstleistung,Mittel,Vertragsdaten,Hamburg DE,2021-01-01,Rollierend,Ja,N/A,2025-11-01,Zufriedenstellend,2026-11-01,Aktiv,CEO
+SUP-010,KPMG,Externes ISMS-Audit,Dienstleistung,Mittel,ISMS-Dokumentation,Hamburg DE,2024-01-01,2026-12-31,N/A (Auditor),ISO 17021,2025-06-01,Zufriedenstellend,2026-06-01,Aktiv,ISB
+SUP-011,DHL Express,Paketzustellung,Dienstleistung,Niedrig,Lieferadressen,Global,2020-01-01,Rollierend,Ja,N/A,2025-11-15,Zufriedenstellend,2026-11-15,Aktiv,Operationsleitung
+SUP-012,Let's Encrypt (ISRG),TLS-Zertifikate,Dienstleistung,Mittel,Nur öffentliche Schlüssel,Global,2022-01-01,Rollierend,N/A,Web PKI Audit,2026-01-01,Zufriedenstellend,2027-01-01,Aktiv,IT-Betriebsleitung

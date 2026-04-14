@@ -1,0 +1,19 @@
+ID,Asset Name,Type,Category,Owner,Custodian,Location,Classification,Criticality,Environment,Description,Status
+AST-001,Customer database (prod),Information,Database,Head of Sales,IT Operations,AWS eu-central-1,Confidential,High,Production,Primary customer record store (PostgreSQL 15),Active
+AST-002,Logistics portal (SaaS),Application,SaaS,Head of Ops,Vendor,Vendor cloud,Confidential,High,Production,Customer-facing logistics tracking portal,Active
+AST-003,M365 tenant,Service,Cloud,ISO,IT Operations,Microsoft cloud EU,Internal,High,Production,Email collaboration and file storage,Active
+AST-004,File server FS-01,Hardware,Server,IT Operations Lead,IT Operations,HQ Hamburg DC,Confidential,High,Production,On-prem SMB file share,Active
+AST-005,Domain controllers DC01 DC02,Hardware,Server,IT Operations Lead,IT Operations,HQ Hamburg DC,Confidential,Critical,Production,Active Directory domain controllers,Active
+AST-006,Laptops (fleet),Hardware,Endpoint,IT Operations Lead,IT Operations,Distributed,Internal,Medium,Production,145 managed Windows + macOS laptops,Active
+AST-007,ERP system,Application,On-prem,CFO,IT Operations,HQ Hamburg DC,Confidential,High,Production,SAP Business One,Active
+AST-008,Backup system Veeam,Application,On-prem,IT Operations Lead,IT Operations,HQ Hamburg DC + offsite,Confidential,Critical,Production,Central backup with offsite replication,Active
+AST-009,SIEM (Splunk),Application,On-prem,ISO,IT Operations,HQ Hamburg DC,Confidential,High,Production,Log aggregation and detection,Active
+AST-010,Firewall cluster FW-01/02,Hardware,Network,IT Operations Lead,IT Operations,HQ Hamburg DC,Confidential,Critical,Production,Perimeter firewall HA pair (Fortinet),Active
+AST-011,VPN gateway,Hardware,Network,IT Operations Lead,IT Operations,HQ Hamburg DC,Confidential,High,Production,Remote access gateway,Active
+AST-012,S3 bucket nwl-marketing,Information,Cloud storage,Marketing Lead,IT Operations,AWS eu-central-1,Internal,Medium,Production,Marketing assets (public-read disabled),Active
+AST-013,CI/CD pipeline (GitLab),Application,On-prem,Head of Engineering,IT Operations,HQ Hamburg DC,Confidential,High,Production,Source control and build pipeline,Active
+AST-014,Mobile phones (fleet),Hardware,Endpoint,IT Operations Lead,IT Operations,Distributed,Internal,Medium,Production,38 managed iOS devices,Active
+AST-015,HR database (Personio),Information,SaaS,HR Lead,Vendor,Personio EU,Confidential,High,Production,Employee master data,Active
+AST-016,Physical HQ building,Facility,Building,Facilities Lead,Facilities,Hamburg,Internal,High,Production,Main office 1200 sqm + server room,Active
+AST-017,Payroll data,Information,File,HR Lead,HR,Personio + local archive,Strictly Confidential,High,Production,Monthly payroll records,Active
+AST-018,Contract archive,Information,File,Legal,Legal,M365 SharePoint,Confidential,Medium,Production,Signed contracts,Active

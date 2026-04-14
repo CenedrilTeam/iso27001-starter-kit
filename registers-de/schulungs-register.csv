@@ -1,0 +1,15 @@
+Person,Rolle,Schulung,Art,Fällig am,Abgeschlossen am,Status,Nachweis,Nächste Auffrischung
+Anna Weber,Informationssicherheitsbeauftragte,ISO 27001 Lead Implementer,Externe Zertifizierung,2026-06-30,2025-11-12,Abgeschlossen,Zertifikat #LI-27001-44821,2028-11-12
+Anna Weber,Informationssicherheitsbeauftragte,Incident-Response-Tabletop,Interne Übung,2026-05-15,2026-03-20,Abgeschlossen,Übungsbericht 2026-Q1,2027-03-20
+Markus Schulz,IT-Betriebsleitung,CIS Linux Benchmark Workshop,Externe Schulung,2026-07-31,,Geplant,,
+Markus Schulz,IT-Betriebsleitung,Backup-Restore-Übung,Interne Übung,2026-04-30,2026-04-02,Abgeschlossen,Übungsbericht BCM-2026-01,2027-04-02
+Sophie Lang,Entwicklerin,OWASP Top 10 Workshop,Interne Schulung,2026-03-31,2026-03-28,Abgeschlossen,Teilnahmeliste 2026-03-28,2027-03-28
+Sophie Lang,Entwicklerin,SAST-Tool-Onboarding,Interne Schulung,2026-05-31,,In Bearbeitung,,
+Julia Hoffmann,Datenschutzbeauftragte,CIPP/E Auffrischung,Externe Schulung,2026-09-30,,Geplant,,
+Julia Hoffmann,Datenschutzbeauftragte,DSFA-Workshop,Externe Schulung,2026-06-30,2026-02-14,Abgeschlossen,Zertifikat DSFA-2026-112,2028-02-14
+Thomas Krüger,HR-Leitung,Background-Screening-Auffrischung,Interne Schulung,2026-08-31,,Geplant,,
+Elena Fischer,Finanzleitung,CEO-Fraud / BEC Workshop,Externe Schulung,2026-05-31,2026-04-03,Abgeschlossen,Workshop-Bestätigung BEC-26,2027-04-03
+Alle Mitarbeitende (42),Alle Mitarbeitende,Security Awareness 2026,E-Learning,2026-06-30,,In Bearbeitung (28/42 abgeschlossen),LMS-Bericht 2026-04-13,2027-06-30
+Alle Mitarbeitende (42),Alle Mitarbeitende,Phishing-Simulation Q1,Simulation,2026-03-31,2026-03-25,Abgeschlossen,LMS-Bericht PS-2026-Q1,2026-09-30
+Alle Mitarbeitende (42),Alle Mitarbeitende,Akzeptable-Nutzung-Bestätigung,E-Learning,2026-04-30,,In Bearbeitung (35/42),LMS-Bericht 2026-04-13,2027-04-30
+Neueinstellungen (4),Alle Mitarbeitende,Onboarding-Sicherheitseinführung,Präsenz,Innerhalb 2 Wochen nach Eintritt,,3 von 4 abgeschlossen,HR-Onboarding-Liste,

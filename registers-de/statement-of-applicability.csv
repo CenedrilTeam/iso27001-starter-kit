@@ -1,0 +1,94 @@
+Kontroll-ID,Kontrollname,Bereich,Anwendbar,Begründung,Umsetzungsstatus,Umsetzungsbeschreibung,Referenz
+A.5.1,Informationssicherheitsrichtlinien,Organisatorisch,Ja,Erforderlich gemäß ISO 27001 5.2 und regulatorische Erwartungen,Umgesetzt,Informationssicherheitsrichtlinie von CEO genehmigt und kommuniziert,POL-001
+A.5.2,Informationssicherheitsrollen und -verantwortlichkeiten,Organisatorisch,Ja,Erforderlich zur Zuweisung von Verantwortlichkeiten,Umgesetzt,RACI-Matrix und Rollenbeschreibungen,RACI-Matrix
+A.5.3,Aufgabentrennung,Organisatorisch,Ja,Erforderlich zur Prävention von Betrug und Fehlern,Umgesetzt,Trennung in Finanzen und IT-Administration durchgesetzt,Zugriffskontroll-Richtlinie
+A.5.4,Verantwortlichkeiten der Geschäftsleitung,Organisatorisch,Ja,Erforderlich für Management-Commitment,Umgesetzt,In ISR dokumentiert und Management-Review-Protokollen,POL-001
+A.5.5,Kontakt zu Behörden,Organisatorisch,Ja,Erforderlich für Regulator- und Strafverfolgungskontakt,Umgesetzt,Behörden-Kontaktliste gepflegt,Security-Operations-Richtlinie
+A.5.6,Kontakt zu Interessengruppen,Organisatorisch,Ja,Verbessert Bedrohungsbewusstsein,Umgesetzt,Mitgliedschaft in Allianz für Cybersicherheit + ISACA,SecOps-Register
+A.5.7,Threat Intelligence,Organisatorisch,Ja,Erforderlich zur Information der Risikobehandlung,Umgesetzt,Abonnement BSI CSW + CERT-EU-Feed,SecOps-Dashboard
+A.5.8,Informationssicherheit im Projektmanagement,Organisatorisch,Ja,Erforderlich für sichere Projekte,Umgesetzt,Security-Tollgate in Projektmethodik,POL-013
+A.5.9,Inventar der Informationen und zugehöriger Werte,Organisatorisch,Ja,Erforderlich zum Schutz der Werte,Umgesetzt,Asset-Register gepflegt,Asset-Register
+A.5.10,Akzeptable Nutzung von Informationen und zugehörigen Werten,Organisatorisch,Ja,Erforderlich für Nutzerverantwortlichkeit,Umgesetzt,AUP von allen Mitarbeitenden bestätigt,POL-004
+A.5.11,Rückgabe von Werten,Organisatorisch,Ja,Erforderlich bei Beendigung,Umgesetzt,Teil der Leaver-Checkliste,HR-Security-Richtlinie
+A.5.12,Klassifizierung von Informationen,Organisatorisch,Ja,Erforderlich für angemessenen Schutz,Umgesetzt,4-Stufen-Schema Öffentlich/Intern/Vertraulich/Streng vertraulich,POL-007
+A.5.13,Kennzeichnung von Informationen,Organisatorisch,Ja,Erforderlich zur Operationalisierung der Klassifizierung,Umgesetzt,Dokumentvorlagen enthalten Klassifizierungslabel,POL-007
+A.5.14,Informationstransfer,Organisatorisch,Ja,Erforderlich für sicheren Austausch,Umgesetzt,Informationstransfer-Richtlinie + sicheres Portal,POL-008
+A.5.15,Zugriffskontrolle,Organisatorisch,Ja,Erforderlich zum Zugriffsschutz,Umgesetzt,Zugriffskontroll-Richtlinie + RBAC,POL-005
+A.5.16,Identitätsmanagement,Organisatorisch,Ja,Erforderlich für eindeutige Identitäten,Umgesetzt,Zentraler IdP (Entra ID),Zugriffskontroll-Richtlinie
+A.5.17,Authentifizierungsinformationen,Organisatorisch,Ja,Erforderlich zum Schutz von Zugangsdaten,Umgesetzt,MFA erzwungen + Passwortmanager,Zugriffskontroll-Richtlinie
+A.5.18,Zugriffsrechte,Organisatorisch,Ja,Erforderlich für Least Privilege,Umgesetzt,Quartalsweises Zugriffsreview,Zugriffskontroll-Richtlinie
+A.5.19,Informationssicherheit in Lieferantenbeziehungen,Organisatorisch,Ja,Drittparteienrisiko,Umgesetzt,Lieferanten-Sicherheitsrichtlinie + Screening,POL-010
+A.5.20,Informationssicherheit in Lieferantenvereinbarungen,Organisatorisch,Ja,Vertragliche Anforderung,Umgesetzt,Sicherheitsklauseln in allen Lieferantenverträgen,POL-010
+A.5.21,Informationssicherheit in der IKT-Lieferkette,Organisatorisch,Ja,Lieferketten-Risiko,Umgesetzt,SBOM-Anforderungen für kritische SW,POL-010
+A.5.22,Überwachung und Änderungsmanagement von Lieferantenleistungen,Organisatorisch,Ja,Erforderlich für fortlaufende Sicherheit,Umgesetzt,Jährliches Lieferantenreview,POL-010
+A.5.23,Informationssicherheit bei Nutzung von Cloud-Diensten,Organisatorisch,Ja,Cloud-Nutzung vorhanden,Umgesetzt,Cloud-Provider-Bewertungs-Checkliste,POL-010
+A.5.24,Planung und Vorbereitung des Incident-Managements,Organisatorisch,Ja,Erforderlich für Incident-Bereitschaft,Umgesetzt,Incident Response Plan,PROC-001
+A.5.25,Bewertung und Entscheidung bei Informationssicherheits-Events,Organisatorisch,Ja,Erforderlich zur Event-Triage,Umgesetzt,Triage-Prozess im IRP,PROC-001
+A.5.26,Reaktion auf Informationssicherheitsvorfälle,Organisatorisch,Ja,Erforderlich zur Eindämmung,Umgesetzt,Runbooks für Top-10-Vorfallstypen,PROC-001
+A.5.27,Lernen aus Informationssicherheitsvorfällen,Organisatorisch,Ja,Erforderlich zur Verbesserung,Umgesetzt,Post-Incident-Review-Vorlage,PROC-001
+A.5.28,Sammlung von Beweisen,Organisatorisch,Ja,Erforderlich für Untersuchungen,Umgesetzt,Chain-of-Custody-Verfahren,PROC-001
+A.5.29,Informationssicherheit bei Betriebsunterbrechung,Organisatorisch,Ja,BCM-Integration,Umgesetzt,BCP + Sicherheitsanforderungen bei Unterbrechung,POL-009
+A.5.30,IKT-Bereitschaft für Geschäftskontinuität,Organisatorisch,Ja,BCM-Integration,Umgesetzt,DR-Plan + Tests,PROC-003
+A.5.31,Rechtliche gesetzliche regulatorische und vertragliche Anforderungen,Organisatorisch,Ja,Compliance-Pflicht,Umgesetzt,Rechtsregister gepflegt,Rechtsregister
+A.5.32,Rechte an geistigem Eigentum,Organisatorisch,Ja,Erforderlich zum IP-Management,Umgesetzt,IPR-Richtlinie + Software-Asset-Kontrollen,POL-012
+A.5.33,Schutz von Aufzeichnungen,Organisatorisch,Ja,Erforderlich für Integrität und Aufbewahrung,Umgesetzt,Aufbewahrungsplan,DSB-Verfahren
+A.5.34,Datenschutz und Schutz personenbezogener Daten,Organisatorisch,Ja,DSGVO-Pflicht,Umgesetzt,Datenschutzrichtlinie + DSB,POL-018
+A.5.35,Unabhängige Überprüfung der Informationssicherheit,Organisatorisch,Ja,Gefordert durch ISO 27001 9.2,Umgesetzt,Jährliches externes Audit,Auditplan
+A.5.36,Einhaltung von Richtlinien Regeln und Standards,Organisatorisch,Ja,Erforderlich für Assurance,Umgesetzt,Quartalsweiser Policy-Konformitätscheck,POL-003
+A.5.37,Dokumentierte Betriebsverfahren,Organisatorisch,Ja,Erforderlich für Betrieb,Umgesetzt,Runbook-Bibliothek,IT-Betrieb-Richtlinie
+A.6.1,Screening,Personal,Ja,Vor Einstellung erforderlich,Umgesetzt,Hintergrundprüfung für sensible Rollen,POL-006
+A.6.2,Einstellungsbedingungen,Personal,Ja,Erforderlich für Verantwortlichkeit,Umgesetzt,Sicherheitsklauseln im Arbeitsvertrag,POL-006
+A.6.3,Awareness Schulung und Training,Personal,Ja,Erforderlich für Kompetenz,Umgesetzt,Jährliches Awareness-Training + Phishing,POL-006
+A.6.4,Disziplinarverfahren,Personal,Ja,Erforderlich für Durchsetzung,Umgesetzt,HR-Disziplinarverfahren,POL-006
+A.6.5,Verantwortlichkeiten nach Beendigung oder Wechsel,Personal,Ja,Erforderlich für Offboarding,Umgesetzt,Leaver-Checkliste,POL-006
+A.6.6,Vertraulichkeits- oder Geheimhaltungsvereinbarungen,Personal,Ja,Erforderlich zum Informationsschutz,Umgesetzt,NDAs beim Onboarding unterschrieben,POL-006
+A.6.7,Telearbeit,Personal,Ja,Telearbeit existiert,Umgesetzt,Telearbeit-Richtlinie + verwaltete Endgeräte,POL-014
+A.6.8,Meldung von Informationssicherheits-Events,Personal,Ja,Erforderlich für Erkennung,Umgesetzt,Meldekanal + Schulung,POL-004
+A.7.1,Physische Sicherheitsperimeter,Physisch,Ja,Büros vor Ort existieren,Umgesetzt,Ausweis + überwachter Perimeter,POL-015
+A.7.2,Physischer Zutritt,Physisch,Ja,Erforderlich,Umgesetzt,Ausweiszutritt + Besucherliste,POL-015
+A.7.3,Sicherung von Büros Räumen und Einrichtungen,Physisch,Ja,Erforderlich,Umgesetzt,Abgeschlossene Räume für sensible Bereiche,POL-015
+A.7.4,Überwachung der physischen Sicherheit,Physisch,Ja,Erforderlich,Umgesetzt,Videoüberwachung am Haupteingang,POL-015
+A.7.5,Schutz gegen physische und umweltbedingte Bedrohungen,Physisch,Ja,Erforderlich,Umgesetzt,Brandschutz + Wassersensoren,POL-015
+A.7.6,Arbeiten in Sicherheitsbereichen,Physisch,Ja,Erforderlich,Umgesetzt,Clean-Desk-Regel für Sicherheitsräume,POL-015
+A.7.7,Aufgeräumter Arbeitsplatz und Bildschirmsperre,Physisch,Ja,Erforderlich,Umgesetzt,Clean-Desk-Richtlinie,POL-015
+A.7.8,Platzierung und Schutz von Geräten,Physisch,Ja,Erforderlich,Umgesetzt,Serverraum-Zutrittskontrollen,POL-015
+A.7.9,Sicherheit von Werten außerhalb des Standorts,Physisch,Ja,Laptops außerhalb genutzt,Umgesetzt,Geräteverschlüsselung + Tracking,POL-016
+A.7.10,Speichermedien,Physisch,Ja,Wechselmedien werden genutzt,Umgesetzt,Nur verschlüsselte USB + Register,POL-016
+A.7.11,Versorgungseinrichtungen,Physisch,Ja,Erforderlich,Umgesetzt,USV + Generator-Tests,POL-015
+A.7.12,Verkabelungssicherheit,Physisch,Ja,Erforderlich,Umgesetzt,Kabelkanäle geschützt,POL-015
+A.7.13,Gerätewartung,Physisch,Ja,Erforderlich,Umgesetzt,Wartungsplan,POL-019
+A.7.14,Sichere Entsorgung oder Wiederverwendung,Physisch,Ja,Erforderlich,Umgesetzt,Zertifizierter Entsorgungspartner,POL-018
+A.8.1,Endgeräte,Technologisch,Ja,Erforderlich,Umgesetzt,Verwaltete Endgeräte mit MDM,POL-016
+A.8.2,Privilegierte Zugriffsrechte,Technologisch,Ja,Erforderlich,Umgesetzt,PAM-Lösung + MFA,POL-005
+A.8.3,Zugriffsbeschränkung auf Informationen,Technologisch,Ja,Erforderlich,Umgesetzt,Anwendungsseitiges RBAC,POL-005
+A.8.4,Zugriff auf Quellcode,Technologisch,Ja,Entwicklung im Haus,Umgesetzt,Git-Repo-Zugriffskontrolle,POL-021
+A.8.5,Sichere Authentifizierung,Technologisch,Ja,Erforderlich,Umgesetzt,MFA + starke Authentifizierungsrichtlinie,POL-005
+A.8.6,Kapazitätsmanagement,Technologisch,Ja,Erforderlich,Umgesetzt,Kapazitätsüberwachung,POL-019
+A.8.7,Schutz vor Schadsoftware,Technologisch,Ja,Erforderlich,Umgesetzt,EDR auf allen Endgeräten + Servern,POL-016
+A.8.8,Management technischer Schwachstellen,Technologisch,Ja,Erforderlich,Umgesetzt,Monatlicher Vuln-Scan + Patching,POL-019
+A.8.9,Konfigurationsmanagement,Technologisch,Ja,Erforderlich,Umgesetzt,Gehärtete Baselines + Drift-Checks,POL-020
+A.8.10,Löschung von Informationen,Technologisch,Ja,Erforderlich,Umgesetzt,Löschverfahren je Datentyp,POL-018
+A.8.11,Maskierung von Daten,Technologisch,Ja,Erforderlich für Dev/Test,Umgesetzt,Maskierung in Non-Prod-Umgebungen,POL-018
+A.8.12,Verhinderung von Datenabfluss,Technologisch,Ja,Erforderlich,Teilweise umgesetzt,E-Mail-DLP vorhanden Endpoint-DLP geplant,POL-018
+A.8.13,Informations-Backup,Technologisch,Ja,Erforderlich,Umgesetzt,3-2-1-Backup-Strategie,POL-019
+A.8.14,Redundanz von Informationsverarbeitungseinrichtungen,Technologisch,Ja,Erforderlich,Umgesetzt,HA-Cluster für kritische Systeme,POL-019
+A.8.15,Logging,Technologisch,Ja,Erforderlich,Umgesetzt,Zentrales Logging + SIEM,POL-019
+A.8.16,Überwachungsaktivitäten,Technologisch,Ja,Erforderlich,Umgesetzt,24/7-Monitoring durch SOC,POL-019
+A.8.17,Zeitsynchronisation,Technologisch,Ja,Erforderlich für Forensik,Umgesetzt,NTP aus vertrauenswürdiger Quelle,POL-019
+A.8.18,Nutzung privilegierter Dienstprogramme,Technologisch,Ja,Erforderlich,Umgesetzt,Auf Admins beschränkt und geloggt,POL-005
+A.8.19,Installation von Software auf Produktionssystemen,Technologisch,Ja,Erforderlich,Umgesetzt,Whitelisting + Change-Kontrolle,POL-020
+A.8.20,Netzwerksicherheit,Technologisch,Ja,Erforderlich,Umgesetzt,Segmentierung + Firewalls,POL-019
+A.8.21,Sicherheit von Netzwerkdiensten,Technologisch,Ja,Erforderlich,Umgesetzt,Gehärtete Dienste + Monitoring,POL-019
+A.8.22,Segregation von Netzwerken,Technologisch,Ja,Erforderlich,Umgesetzt,VLANs für Prod/Dev/Gast,POL-019
+A.8.23,Web-Filterung,Technologisch,Ja,Erforderlich,Umgesetzt,Sicheres Web-Gateway,POL-019
+A.8.24,Einsatz von Kryptographie,Technologisch,Ja,Erforderlich,Umgesetzt,Kryptographie-Richtlinie + Schlüsselregister,POL-017
+A.8.25,Sicherer Entwicklungslebenszyklus,Technologisch,Ja,Eigenentwicklung,Umgesetzt,Sicherer SDLC mit Toren,POL-021
+A.8.26,Sicherheitsanforderungen an Anwendungen,Technologisch,Ja,Erforderlich,Umgesetzt,Sicherheitsanforderungen in User Stories,POL-021
+A.8.27,Sichere Systemarchitektur und Engineering-Prinzipien,Technologisch,Ja,Erforderlich,Umgesetzt,Referenzarchitektur,POL-021
+A.8.28,Sicheres Coding,Technologisch,Ja,Erforderlich,Umgesetzt,SAST + Peer-Review,POL-021
+A.8.29,Sicherheitstests in Entwicklung und Abnahme,Technologisch,Ja,Erforderlich,Umgesetzt,DAST + Release-Gate,POL-021
+A.8.30,Ausgelagerte Entwicklung,Technologisch,Nein,Keine ausgelagerte Entwicklung,N/A,Keine ausgelagerte Entwicklung durchgeführt,POL-021
+A.8.31,Trennung von Entwicklungs- Test- und Produktionsumgebungen,Technologisch,Ja,Erforderlich,Umgesetzt,Getrennte Tenants und Daten,POL-021
+A.8.32,Change Management,Technologisch,Ja,Erforderlich,Umgesetzt,CAB + Change-Register,POL-020
+A.8.33,Testinformationen,Technologisch,Ja,Erforderlich,Umgesetzt,Maskierte Testdaten,POL-021
+A.8.34,Schutz von Informationssystemen während Audit-Tests,Technologisch,Ja,Erforderlich,Umgesetzt,Schreibgeschützte Auditkonten,POL-021

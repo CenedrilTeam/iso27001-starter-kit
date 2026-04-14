@@ -1,0 +1,23 @@
+Rolle,Erforderliche Kompetenz,Niveau,Quelle,Pflicht,Auffrischungsintervall (Monate)
+Informationssicherheitsbeauftragte/r,ISO/IEC 27001:2022 Lead Implementer,Fortgeschritten,Externe Zertifizierung,Ja,36
+Informationssicherheitsbeauftragte/r,Risikobeurteilung (ISO/IEC 27005),Fortgeschritten,Externe Schulung,Ja,36
+Informationssicherheitsbeauftragte/r,Incident-Response-Koordination,Fortgeschritten,Intern + Tabletop,Ja,12
+IT-Betriebsleitung,Linux/Windows Hardening (CIS Benchmarks),Fortgeschritten,Externe Schulung,Ja,24
+IT-Betriebsleitung,Backup- und Restore-Verfahren,Fortgeschritten,Interne Übungen,Ja,12
+IT-Betriebsleitung,Change Management (ITIL v4 Foundation),Mittel,Externe Zertifizierung,Ja,36
+Systemadministrator,Patch-Management,Mittel,Herstellerschulung,Ja,12
+Systemadministrator,Privileged-Access-Management,Mittel,Interne Schulung,Ja,12
+Entwickler,Sichere Softwareentwicklung (OWASP Top 10),Mittel,E-Learning + Workshop,Ja,12
+Entwickler,SAST-/DAST-Werkzeuge,Mittel,Interne Schulung,Ja,24
+Datenschutzbeauftragte/r,DSGVO-Grundlagen,Fortgeschritten,Externe Zertifizierung,Ja,36
+Datenschutzbeauftragte/r,DSFA-Methodik,Fortgeschritten,Externe Schulung,Ja,24
+HR-Leitung,Background-Screening-Prozess,Mittel,Interne Prozessschulung,Ja,24
+HR-Leitung,Vertraulichkeitspflichten für Mitarbeitende,Mittel,Interne Schulung,Ja,24
+Abteilungsleitung,Informationsklassifizierung,Basis,E-Learning,Ja,12
+Abteilungsleitung,Meldepflichten bei Sicherheitsvorfällen,Basis,E-Learning,Ja,12
+Alle Mitarbeitende,Security Awareness Grundlagen,Basis,E-Learning,Ja,12
+Alle Mitarbeitende,Phishing-Erkennung,Basis,Phishing-Simulation,Ja,6
+Alle Mitarbeitende,Richtlinie zur akzeptablen Nutzung,Basis,E-Learning,Ja,12
+Alle Mitarbeitende,Datenschutz-Grundlagen,Basis,E-Learning,Ja,12
+Remote-Arbeitende,Sicherheit bei Telearbeit,Basis,E-Learning,Ja,12
+Finanzabteilung,CEO-Fraud / BEC Awareness,Mittel,Zielgerichteter Workshop,Ja,12

@@ -1,0 +1,15 @@
+Person,Role,Training,Type,Due Date,Completion Date,Status,Evidence,Next Refresh
+Anna Weber,Information Security Officer,ISO 27001 Lead Implementer,External certification,2026-06-30,2025-11-12,Completed,Cert #LI-27001-44821,2028-11-12
+Anna Weber,Information Security Officer,Incident response tabletop,Internal drill,2026-05-15,2026-03-20,Completed,Drill report 2026-Q1,2027-03-20
+Markus Schulz,IT Operations Lead,CIS Linux Benchmark workshop,External training,2026-07-31,,Planned,,
+Markus Schulz,IT Operations Lead,Backup restore drill,Internal drill,2026-04-30,2026-04-02,Completed,Drill report BCM-2026-01,2027-04-02
+Sophie Lang,Developer,OWASP Top 10 workshop,Internal training,2026-03-31,2026-03-28,Completed,Attendance sheet 2026-03-28,2027-03-28
+Sophie Lang,Developer,SAST tool onboarding,Internal training,2026-05-31,,In progress,,
+Julia Hoffmann,Data Protection Officer,CIPP/E refresher,External training,2026-09-30,,Planned,,
+Julia Hoffmann,Data Protection Officer,DPIA workshop,External training,2026-06-30,2026-02-14,Completed,Cert DPIA-2026-112,2028-02-14
+Thomas Krüger,HR Lead,Background screening refresher,Internal training,2026-08-31,,Planned,,
+Elena Fischer,Finance Lead,CEO fraud / BEC workshop,External training,2026-05-31,2026-04-03,Completed,Workshop confirmation BEC-26,2027-04-03
+All Employees (42),All Employees,Security Awareness 2026,E-learning,2026-06-30,,In progress (28/42 completed),LMS report 2026-04-13,2027-06-30
+All Employees (42),All Employees,Phishing simulation Q1,Simulation,2026-03-31,2026-03-25,Completed,LMS report PS-2026-Q1,2026-09-30
+All Employees (42),All Employees,Acceptable Use Policy acknowledgement,E-learning,2026-04-30,,In progress (35/42),LMS report 2026-04-13,2027-04-30
+New Hires (4),All Employees,Onboarding security induction,Classroom,Within 2 weeks of start,,3 of 4 completed,HR onboarding sheet,

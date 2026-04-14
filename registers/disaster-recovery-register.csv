@@ -1,0 +1,11 @@
+ID,System,Criticality,RTO,RPO,Backup Method,Backup Frequency,Backup Location,Runbook,Last Restore Test,Last Test Result,Next Test,Owner
+DR-001,AST-001 Customer database,Critical,4h,15 min,Veeam snapshot + WAL shipping,Continuous,Primary DC + offsite,RB-DB-001,2026-02-15,Passed (restored in 2h50),2026-05-15,IT Operations Lead
+DR-002,AST-002 Logistics portal (SaaS),Critical,4h,1h,Vendor-managed + exported data daily,Daily,Vendor + internal S3,RB-SAAS-002,2026-03-10,Passed,2026-06-10,Head of Ops
+DR-003,AST-005 Domain controllers,Critical,2h,1h,System state backup,Daily,Primary DC + offsite,RB-AD-001,2026-01-20,Passed (1h30),2026-04-20,IT Operations Lead
+DR-004,AST-007 ERP (SAP B1),High,8h,4h,Full backup + trans log,Every 4h,Primary DC + offsite,RB-ERP-001,2026-01-12,Passed (7h),2026-04-12,CFO
+DR-005,AST-008 Veeam,High,8h,1 day,Config export,Daily,Offsite,RB-BKP-001,2026-02-01,Passed,2026-05-01,IT Operations Lead
+DR-006,AST-013 GitLab,High,8h,4h,Gitaly backup,Every 4h,Primary DC + S3,RB-GIT-001,2025-12-05,Passed (5h),2026-06-05,Head of Engineering
+DR-007,AST-009 SIEM,Medium,24h,24h,Index backup,Daily,Primary DC,RB-SIEM-001,2025-11-20,Passed,2026-05-20,ISO
+DR-008,AST-003 M365 tenant,High,24h,24h,Third-party backup (Veeam for M365),Daily,AWS S3,RB-M365-001,2026-03-01,Passed,2026-06-01,IT Operations Lead
+DR-009,AST-015 HR database (Personio),High,24h,24h,Vendor-managed + CSV export,Daily,Vendor + internal,RB-HR-001,2026-02-20,Passed,2026-05-20,HR Lead
+DR-010,AST-017 Payroll,Critical,24h,24h,Vendor + encrypted archive,Monthly + on change,Vendor + internal vault,RB-PAY-001,2026-01-25,Passed,2026-07-25,CFO

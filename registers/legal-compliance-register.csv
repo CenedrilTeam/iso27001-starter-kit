@@ -1,0 +1,28 @@
+ID,Regulation,Article / Section,Requirement,Applicability,Obligation Type,Responsible,Evidence,Status,Next Review
+LR-001,GDPR (EU 2016/679),Art. 5,Principles of processing (lawfulness fairness transparency purpose limitation data minimisation accuracy storage limitation integrity confidentiality accountability),All personal data processing,Organisational,DPO,Data Protection Policy + RoPA,Compliant,2026-12-31
+LR-002,GDPR,Art. 6,Lawful basis required for each processing activity,All personal data processing,Organisational,DPO,Legal basis documented in RoPA,Compliant,2026-12-31
+LR-003,GDPR,Art. 13-14,Information to data subjects at collection,Customer and employee data,Organisational,DPO,Privacy notice on website + HR handbook,Compliant,2026-12-31
+LR-004,GDPR,Art. 15-22,Data subject rights (access rectification erasure restriction portability objection),All personal data,Organisational,DPO,SAR procedure + log,Compliant,2026-12-31
+LR-005,GDPR,Art. 24 25,Responsibility of controller + privacy by design,All processing,Technical + Organisational,DPO,DPIA procedure + control implementation,Compliant,2026-12-31
+LR-006,GDPR,Art. 28,Processor contracts (DPA) required,All processors,Contractual,DPO,Data processing agreements with all processors,Compliant,2026-06-30
+LR-007,GDPR,Art. 30,Records of processing activities,Organisation (>250 or high risk),Organisational,DPO,RoPA (records of processing),Compliant,2026-12-31
+LR-008,GDPR,Art. 32,Security of processing (appropriate technical and organisational measures),All processing,Technical + Organisational,ISO,ISMS controls + TOM document,Compliant,2026-12-31
+LR-009,GDPR,Art. 33,Breach notification to supervisory authority within 72 hours,All processing,Procedural,DPO,Incident Response Plan breach section + log,Compliant,2026-12-31
+LR-010,GDPR,Art. 34,Breach notification to affected data subjects (if high risk),All processing,Procedural,DPO,IRP + communication templates,Compliant,2026-12-31
+LR-011,GDPR,Art. 35,Data protection impact assessment required for high-risk processing,New processing activities,Procedural,DPO,DPIA procedure + completed DPIAs,Compliant,2026-12-31
+LR-012,GDPR,Art. 37-39,Designation and tasks of data protection officer,Organisation,Organisational,Top management,DPO appointment letter,Compliant,2027-01-31
+LR-013,GDPR,Art. 44-49,Transfers to third countries require legal basis (SCC adequacy BCR),Any international transfer,Contractual,DPO,Transfer impact assessments + SCCs,Compliant,2026-12-31
+LR-014,NIS2 (EU 2022/2555),Art. 20,Governance: management bodies must approve and supervise risk measures and take training,Essential or important entity,Organisational,Top management,Management training record + approved ISMS docs,Compliant,2026-12-31
+LR-015,NIS2,Art. 21(1),Appropriate and proportionate technical operational and organisational measures,Essential or important entity,Technical + Organisational,ISO,ISMS + SoA,Compliant,2026-12-31
+LR-016,NIS2,Art. 21(2)(a),Risk analysis and information system security policies,Entity,Organisational,ISO,Risk Management Policy + Information Security Policy,Compliant,2026-12-31
+LR-017,NIS2,Art. 21(2)(b),Incident handling,Entity,Procedural,ISO,Incident Response Plan,Compliant,2026-12-31
+LR-018,NIS2,Art. 21(2)(c),Business continuity (backup management disaster recovery crisis management),Entity,Procedural,BCM Lead,BCP + DRP + crisis comms,Compliant,2026-12-31
+LR-019,NIS2,Art. 21(2)(d),Supply chain security including supplier and service provider relationships,Entity,Organisational,Procurement,Supplier Security Policy + register,Compliant,2026-12-31
+LR-020,NIS2,Art. 21(2)(e),Security in network and information systems acquisition development and maintenance including vulnerability handling and disclosure,Entity,Technical,IT Operations Lead,Secure Development + Vuln Mgmt procedure,Compliant,2026-12-31
+LR-021,NIS2,Art. 21(2)(f),Policies and procedures to assess effectiveness of cybersecurity risk measures,Entity,Organisational,ISO,Internal audit + management review,Compliant,2026-12-31
+LR-022,NIS2,Art. 21(2)(g),Basic cyber hygiene practices and cybersecurity training,Entity,Organisational,ISO,Awareness training records,Compliant,2026-12-31
+LR-023,NIS2,Art. 21(2)(h),Policies and procedures on use of cryptography and where appropriate encryption,Entity,Technical,ISO,Cryptography Policy,Compliant,2026-12-31
+LR-024,NIS2,Art. 21(2)(i),Human resources security access control policies and asset management,Entity,Organisational,HR + ISO,HR Security + Access Control + Asset Mgmt,Compliant,2026-12-31
+LR-025,NIS2,Art. 21(2)(j),Use of MFA or continuous auth solutions secured voice/video/text communications and secured emergency communications,Entity,Technical,IT Operations Lead,MFA rollout + secure comms,Partially compliant,2026-06-30
+LR-026,NIS2,Art. 23,Early warning (24h) incident notification (72h) intermediate report final report (1 month),Entity on significant incidents,Procedural,ISO,IRP notification workflow,Compliant,2026-12-31
+LR-027,NIS2,Art. 27,Registration with competent authority,Entity,Organisational,ISO,Registration confirmation,Compliant,2027-01-31

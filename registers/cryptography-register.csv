@@ -1,0 +1,11 @@
+Key ID,Purpose,Algorithm,Key Length,Owner,System,Created,Expiry,Rotation Interval,Storage,Backup,Status
+KEY-001,TLS wildcard *.nordwind-logistics.com,RSA,2048,IT Operations Lead,Nginx frontend,2025-09-01,2026-09-01,12 months,Let's Encrypt ACME,N/A,Active
+KEY-002,TLS api.nordwind-logistics.com,ECDSA P-256,256,IT Operations Lead,API gateway,2025-10-15,2026-10-15,12 months,Let's Encrypt ACME,N/A,Active
+KEY-003,Database encryption at rest (Customer DB),AES-GCM,256,IT Operations Lead,PostgreSQL RDS,2024-04-01,N/A,24 months,AWS KMS CMK,KMS multi-region,Active
+KEY-004,Backup encryption,AES-GCM,256,IT Operations Lead,Veeam repository,2024-01-10,N/A,24 months,HSM,Offsite HSM,Active
+KEY-005,S/MIME email signing ISO,RSA,4096,ISO,M365 Outlook,2025-06-01,2028-06-01,36 months,Smartcard,N/A,Active
+KEY-006,Code signing certificate,RSA,3072,Head of Engineering,CI pipeline,2025-02-01,2027-02-01,24 months,HSM,HSM backup,Active
+KEY-007,SSH host keys prod cluster,Ed25519,256,IT Operations Lead,Linux servers,2024-11-01,N/A,36 months,Host filesystem,Config mgmt,Active
+KEY-008,VPN pre-shared key,N/A,N/A,IT Operations Lead,VPN gateway,2025-08-01,2026-08-01,12 months,Password manager,Secure vault,Active
+KEY-009,Disk encryption recovery keys (fleet),AES,256,IT Operations Lead,BitLocker / FileVault,Continuous,N/A,Per device,MDM escrow,MDM backup,Active
+KEY-010,Database backup AES key (archive),AES-CBC,256,IT Operations Lead,S3 archive,2024-01-01,2027-01-01,36 months,AWS KMS,KMS multi-region,Active

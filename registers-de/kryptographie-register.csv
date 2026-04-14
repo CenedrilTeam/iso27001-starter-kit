@@ -1,0 +1,11 @@
+Schlüssel-ID,Zweck,Algorithmus,Schlüssellänge,Eigentümer,System,Erstellt,Ablauf,Rotationsintervall,Speicherung,Backup,Status
+KEY-001,TLS Wildcard *.nordwind-logistics.com,RSA,2048,IT-Betriebsleitung,Nginx Frontend,2025-09-01,2026-09-01,12 Monate,Let's Encrypt ACME,N/A,Aktiv
+KEY-002,TLS api.nordwind-logistics.com,ECDSA P-256,256,IT-Betriebsleitung,API-Gateway,2025-10-15,2026-10-15,12 Monate,Let's Encrypt ACME,N/A,Aktiv
+KEY-003,Datenbankverschlüsselung im Ruhezustand (Kunden-DB),AES-GCM,256,IT-Betriebsleitung,PostgreSQL RDS,2024-04-01,N/A,24 Monate,AWS KMS CMK,KMS Multi-Region,Aktiv
+KEY-004,Backup-Verschlüsselung,AES-GCM,256,IT-Betriebsleitung,Veeam Repository,2024-01-10,N/A,24 Monate,HSM,Offsite HSM,Aktiv
+KEY-005,S/MIME E-Mail-Signatur ISB,RSA,4096,ISB,M365 Outlook,2025-06-01,2028-06-01,36 Monate,Smartcard,N/A,Aktiv
+KEY-006,Code-Signing-Zertifikat,RSA,3072,Head of Engineering,CI-Pipeline,2025-02-01,2027-02-01,24 Monate,HSM,HSM-Backup,Aktiv
+KEY-007,SSH-Host-Schlüssel Prod-Cluster,Ed25519,256,IT-Betriebsleitung,Linux-Server,2024-11-01,N/A,36 Monate,Host-Dateisystem,Config Management,Aktiv
+KEY-008,VPN Pre-Shared Key,N/A,N/A,IT-Betriebsleitung,VPN-Gateway,2025-08-01,2026-08-01,12 Monate,Passwortmanager,Sicherer Tresor,Aktiv
+KEY-009,Festplattenverschlüsselung Recovery-Schlüssel (Flotte),AES,256,IT-Betriebsleitung,BitLocker / FileVault,Fortlaufend,N/A,Pro Gerät,MDM-Escrow,MDM-Backup,Aktiv
+KEY-010,Datenbank-Backup AES-Schlüssel (Archiv),AES-CBC,256,IT-Betriebsleitung,S3-Archiv,2024-01-01,2027-01-01,36 Monate,AWS KMS,KMS Multi-Region,Aktiv

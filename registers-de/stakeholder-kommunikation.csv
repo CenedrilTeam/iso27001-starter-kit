@@ -1,0 +1,13 @@
+Stakeholder,Kategorie,Interesse am ISMS,Kommunikationsinhalt,Kanal,Frequenz,Verantwortlich,Sprache
+Geschäftsleitung,Intern,Strategische Aufsicht und Risikolage,KPI-Dashboard, Management-Review-Ergebnisse, Großvorfälle,Management-Review-Meeting + E-Mail,Quartalsweise,ISB,DE
+Mitarbeitende,Intern,Richtlinien, Awareness, Vorfallmeldung,Richtlinien-Bestätigungen, Awareness-News, Phishing-Ergebnisse,Intranet + LMS + E-Mail,Monatlich,HR-Leitung,DE
+IT-Betriebsteam,Intern,Technische Kontrollen, Change-Management,Tickets, Change Advisory, Schwachstellenmeldungen,Ticket-System + Teams-Kanal,Kontinuierlich,IT-Betriebsleitung,DE
+Betriebsrat,Intern,Mitarbeiterüberwachung, mobiles Arbeiten,Geplante Monitoring-Maßnahmen, BYOD-Regelungen,Dediziertes Meeting,Bei Änderung,HR-Leitung,DE
+Kunden,Extern,Vertraulichkeit, Verfügbarkeit, sie betreffende Vorfälle,Sicherheitsfactsheet, Vorfallmeldungen, Auditberichte,Kundenportal + E-Mail,Bei Ereignis + jährlich,Sales Ops,DE/EN
+Betroffene Personen,Extern,DSGVO-Rechte,Datenschutzerklärung, Breach-Meldungen,Website + E-Mail,Bei Änderung + bei Ereignis,DSB,DE/EN
+Aufsichtsbehörde BfDI,Extern,DSGVO-Konformität, Breach-Meldungen,Meldungen nach Art. 33 DSGVO,Online-Portal,Bei Ereignis,DSB,DE
+NIS2-Behörde (BSI),Extern,Vorfallmeldungen (24h/72h/1M),Frühwarnung, Vorfallmeldung, Abschlussbericht,BSI-Meldeportal,Bei Ereignis,ISB,DE
+Lieferanten,Extern,Vertragliche Sicherheitsanforderungen,Sicherheitsfragebögen, Audit-Anfragen,E-Mail + Lieferantenportal,Jährlich + bei Ereignis,Einkauf,DE/EN
+Externe Auditoren,Extern,Auditnachweise,SoA, Richtlinien, Aufzeichnungen,Auditraum / sicheres Share,Jährlich,ISB,DE/EN
+Versicherung,Extern,Cyber-Risikoprofil,Kontrollbestätigung,E-Mail,Jährlich,CFO,DE
+Presse,Extern,Krisenkommunikation,Holding Statement, Faktenupdates,Pressemitteilung + Briefing,Bei Ereignis,Kommunikationsleitung,DE

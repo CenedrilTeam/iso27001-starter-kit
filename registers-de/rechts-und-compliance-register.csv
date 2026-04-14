@@ -1,0 +1,28 @@
+ID,Regelwerk,Artikel / Abschnitt,Anforderung,Anwendbarkeit,Pflichtart,Verantwortlich,Nachweis,Status,Nächste Prüfung
+LR-001,DSGVO (EU 2016/679),Art. 5,Grundsätze der Verarbeitung (Rechtmäßigkeit Fairness Transparenz Zweckbindung Datenminimierung Richtigkeit Speicherbegrenzung Integrität Vertraulichkeit Rechenschaftspflicht),Alle Verarbeitungen personenbezogener Daten,Organisatorisch,DSB,Datenschutzrichtlinie + Verarbeitungsverzeichnis,Konform,2026-12-31
+LR-002,DSGVO,Art. 6,Rechtsgrundlage für jede Verarbeitung erforderlich,Alle Verarbeitungen personenbezogener Daten,Organisatorisch,DSB,Rechtsgrundlage im Verarbeitungsverzeichnis dokumentiert,Konform,2026-12-31
+LR-003,DSGVO,Art. 13-14,Informationen an betroffene Personen bei Erhebung,Kunden- und Mitarbeiterdaten,Organisatorisch,DSB,Datenschutzerklärung auf Website + HR-Handbuch,Konform,2026-12-31
+LR-004,DSGVO,Art. 15-22,Rechte der betroffenen Personen (Auskunft Berichtigung Löschung Einschränkung Datenübertragbarkeit Widerspruch),Alle personenbezogenen Daten,Organisatorisch,DSB,SAR-Verfahren + Log,Konform,2026-12-31
+LR-005,DSGVO,Art. 24 25,Verantwortung des Verantwortlichen + Datenschutz durch Technikgestaltung,Alle Verarbeitungen,Technisch + Organisatorisch,DSB,DSFA-Verfahren + umgesetzte Kontrollen,Konform,2026-12-31
+LR-006,DSGVO,Art. 28,Auftragsverarbeitungsverträge (AVV) erforderlich,Alle Auftragsverarbeiter,Vertraglich,DSB,AVV mit allen Auftragsverarbeitern,Konform,2026-06-30
+LR-007,DSGVO,Art. 30,Verzeichnis von Verarbeitungstätigkeiten,Organisation (>250 oder hohes Risiko),Organisatorisch,DSB,Verarbeitungsverzeichnis,Konform,2026-12-31
+LR-008,DSGVO,Art. 32,Sicherheit der Verarbeitung (geeignete technische und organisatorische Maßnahmen),Alle Verarbeitungen,Technisch + Organisatorisch,ISB,ISMS-Kontrollen + TOM-Dokument,Konform,2026-12-31
+LR-009,DSGVO,Art. 33,Meldung an Aufsichtsbehörde innerhalb 72 Stunden,Alle Verarbeitungen,Verfahrensbezogen,DSB,IRP-Abschnitt Breach + Log,Konform,2026-12-31
+LR-010,DSGVO,Art. 34,Benachrichtigung der betroffenen Personen (bei hohem Risiko),Alle Verarbeitungen,Verfahrensbezogen,DSB,IRP + Kommunikationsvorlagen,Konform,2026-12-31
+LR-011,DSGVO,Art. 35,Datenschutz-Folgenabschätzung bei hohem Risiko erforderlich,Neue Verarbeitungstätigkeiten,Verfahrensbezogen,DSB,DSFA-Verfahren + abgeschlossene DSFAs,Konform,2026-12-31
+LR-012,DSGVO,Art. 37-39,Benennung und Aufgaben des Datenschutzbeauftragten,Organisation,Organisatorisch,Geschäftsleitung,DSB-Bestellung,Konform,2027-01-31
+LR-013,DSGVO,Art. 44-49,Übermittlung in Drittländer erfordert Rechtsgrundlage (SCC Angemessenheit BCR),Jede internationale Übermittlung,Vertraglich,DSB,Transfer Impact Assessments + SCCs,Konform,2026-12-31
+LR-014,NIS2 (EU 2022/2555),Art. 20,Governance: Leitungsorgane müssen Risikomaßnahmen genehmigen und überwachen sowie Schulungen absolvieren,Wesentliche oder wichtige Einrichtung,Organisatorisch,Geschäftsleitung,Schulungsnachweise + genehmigte ISMS-Dokumente,Konform,2026-12-31
+LR-015,NIS2,Art. 21(1),Geeignete und verhältnismäßige technische operative und organisatorische Maßnahmen,Wesentliche oder wichtige Einrichtung,Technisch + Organisatorisch,ISB,ISMS + SoA,Konform,2026-12-31
+LR-016,NIS2,Art. 21(2)(a),Risikoanalyse und Informationssicherheits-Richtlinien,Einrichtung,Organisatorisch,ISB,Risikomanagement-Richtlinie + Informationssicherheitsrichtlinie,Konform,2026-12-31
+LR-017,NIS2,Art. 21(2)(b),Bewältigung von Sicherheitsvorfällen,Einrichtung,Verfahrensbezogen,ISB,Incident Response Plan,Konform,2026-12-31
+LR-018,NIS2,Art. 21(2)(c),Aufrechterhaltung des Betriebs (Backup-Management Wiederherstellung Krisenmanagement),Einrichtung,Verfahrensbezogen,BCM-Leitung,BCP + DRP + Krisenkommunikation,Konform,2026-12-31
+LR-019,NIS2,Art. 21(2)(d),Sicherheit der Lieferkette einschließlich Lieferanten und Dienstleister,Einrichtung,Organisatorisch,Einkauf,Lieferanten-Sicherheitsrichtlinie + Register,Konform,2026-12-31
+LR-020,NIS2,Art. 21(2)(e),Sicherheit bei Erwerb Entwicklung und Wartung einschließlich Schwachstellen-Handhabung und -Offenlegung,Einrichtung,Technisch,IT-Betriebsleitung,Sichere Entwicklung + Vuln-Mgmt-Verfahren,Konform,2026-12-31
+LR-021,NIS2,Art. 21(2)(f),Richtlinien und Verfahren zur Bewertung der Wirksamkeit von Cybersicherheits-Risikomaßnahmen,Einrichtung,Organisatorisch,ISB,Internes Audit + Management-Review,Konform,2026-12-31
+LR-022,NIS2,Art. 21(2)(g),Grundlegende Cyberhygiene und Cybersicherheits-Schulung,Einrichtung,Organisatorisch,ISB,Awareness-Schulungsnachweise,Konform,2026-12-31
+LR-023,NIS2,Art. 21(2)(h),Richtlinien und Verfahren zum Einsatz von Kryptographie und ggf. Verschlüsselung,Einrichtung,Technisch,ISB,Kryptographie-Richtlinie,Konform,2026-12-31
+LR-024,NIS2,Art. 21(2)(i),Personalsicherheit Zugriffskontrolle und Asset-Management,Einrichtung,Organisatorisch,HR + ISB,HR-Security + Zugriffskontrolle + Asset-Mgmt,Konform,2026-12-31
+LR-025,NIS2,Art. 21(2)(j),Einsatz von MFA oder kontinuierlicher Authentifizierung gesicherter Sprach- Video- und Textkommunikation und gesicherter Notfallkommunikation,Einrichtung,Technisch,IT-Betriebsleitung,MFA-Rollout + sichere Kommunikation,Teilweise konform,2026-06-30
+LR-026,NIS2,Art. 23,Frühwarnung (24 h) Vorfallmeldung (72 h) Zwischenbericht Abschlussbericht (1 Monat),Einrichtung bei erheblichen Vorfällen,Verfahrensbezogen,ISB,IRP-Meldeworkflow,Konform,2026-12-31
+LR-027,NIS2,Art. 27,Registrierung bei zuständiger Behörde,Einrichtung,Organisatorisch,ISB,Registrierungsbestätigung,Konform,2027-01-31

@@ -1,0 +1,7 @@
+ID,Typ,Geltungsbereich,Beschreibung,Begründung,Kompensierende Kontrollen,Beantragt von,Genehmigt von,Gewährt,Läuft ab,Status
+EXC-2026-001,Malware-Schutz,AST-013 CI-Runner,Verzeichnis /builds/ von Echtzeit-AV-Scan ausschließen,Builds schlagen mit Scan fehl (False Positives bei Artefakten),Wöchentlicher Offline-Scan + eingeschränkter Netzzugriff für Runner,Head of Engineering,ISB,2026-02-01,2026-08-01,Aktiv
+EXC-2026-002,Web-Filter,Marketingteam (12 Nutzer),Social-Media-Plattformen (LinkedIn Facebook Instagram X TikTok) erlauben,Geschäftlicher Bedarf für Social-Media-Kampagnen,DLP-Scan ausgehend + Schulung,Marketingleitung,ISB,2026-01-15,2027-01-15,Aktiv
+EXC-2026-003,Malware-Schutz,AST-006 (3 Entwickler-Laptops),Docker Desktop Cache-Verzeichnisse ausschließen,EDR-Konflikte mit Containern,EDR-Richtlinie mit Docker-Regeln + Netzwerk-Monitoring,Head of Engineering,ISB,2026-03-01,2026-09-01,Aktiv
+EXC-2026-004,Web-Filter,Threat-Intel-Analyst (1 Nutzer),Zugriff auf Malware-Analyse-Sandboxes und Untergrundforen erlauben,Bedrohungsforschung,Isolierte Forschungs-VM + geloggt,ISB,ISB + CEO,2026-01-01,2026-12-31,Aktiv
+EXC-2026-005,Passwortrichtlinie,Legacy-ERP-Schnittstelle,Passwortlänge von 10 statt 14 Zeichen erlauben,System unterstützt keine längeren Passwörter,Kontosperre nach 5 Fehlversuchen + MFA auf Jump-Host,IT-Betriebsleitung,ISB,2025-11-01,2026-11-01,Aktiv
+EXC-2026-006,Web-Filter,Finanzteam (4 Nutzer),Zugriff auf Banking-Portale erlauben,Geschäftlicher Bedarf,Überwacht + DLP-Regeln,CFO,ISB,2026-01-01,2027-01-01,Aktiv

@@ -1,0 +1,11 @@
+ID,System,Kritikalität,RTO,RPO,Backup-Methode,Backup-Frequenz,Backup-Standort,Runbook,Letzter Restore-Test,Letztes Testergebnis,Nächster Test,Verantwortlich
+DR-001,AST-001 Kundendatenbank,Kritisch,4 h,15 min,Veeam-Snapshot + WAL-Shipping,Fortlaufend,Primäres RZ + Offsite,RB-DB-001,2026-02-15,Bestanden (restauriert in 2 h 50),2026-05-15,IT-Betriebsleitung
+DR-002,AST-002 Logistikportal (SaaS),Kritisch,4 h,1 h,Anbieterseitig + tägliche Datenexporte,Täglich,Anbieter + intern S3,RB-SAAS-002,2026-03-10,Bestanden,2026-06-10,Operationsleitung
+DR-003,AST-005 Domain Controller,Kritisch,2 h,1 h,System State Backup,Täglich,Primäres RZ + Offsite,RB-AD-001,2026-01-20,Bestanden (1 h 30),2026-04-20,IT-Betriebsleitung
+DR-004,AST-007 ERP (SAP B1),Hoch,8 h,4 h,Vollbackup + Transaktionslog,Alle 4 h,Primäres RZ + Offsite,RB-ERP-001,2026-01-12,Bestanden (7 h),2026-04-12,CFO
+DR-005,AST-008 Veeam,Hoch,8 h,1 Tag,Konfig-Export,Täglich,Offsite,RB-BKP-001,2026-02-01,Bestanden,2026-05-01,IT-Betriebsleitung
+DR-006,AST-013 GitLab,Hoch,8 h,4 h,Gitaly-Backup,Alle 4 h,Primäres RZ + S3,RB-GIT-001,2025-12-05,Bestanden (5 h),2026-06-05,Head of Engineering
+DR-007,AST-009 SIEM,Mittel,24 h,24 h,Index-Backup,Täglich,Primäres RZ,RB-SIEM-001,2025-11-20,Bestanden,2026-05-20,ISB
+DR-008,AST-003 M365-Tenant,Hoch,24 h,24 h,Drittanbieter-Backup (Veeam for M365),Täglich,AWS S3,RB-M365-001,2026-03-01,Bestanden,2026-06-01,IT-Betriebsleitung
+DR-009,AST-015 HR-Datenbank (Personio),Hoch,24 h,24 h,Anbieterseitig + CSV-Export,Täglich,Anbieter + intern,RB-HR-001,2026-02-20,Bestanden,2026-05-20,HR-Leitung
+DR-010,AST-017 Lohndaten,Kritisch,24 h,24 h,Anbieter + verschlüsseltes Archiv,Monatlich + bei Änderung,Anbieter + interner Tresor,RB-PAY-001,2026-01-25,Bestanden,2026-07-25,CFO

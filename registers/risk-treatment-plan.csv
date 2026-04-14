@@ -1,0 +1,12 @@
+ID,Risk ID,Action,Annex A Control,Owner,Start Date,Due Date,Budget (EUR),Status,Verification,Residual Score After
+RTP-001,R-001,Deploy phishing-resistant MFA (FIDO2) for all admin accounts,A 5.17 A 8.5,IT Operations Lead,2026-02-01,2026-06-30,8000,In progress,Audit test Q3,6
+RTP-002,R-001,Segment backup network and isolate credentials,A 8.12 A 8.20,IT Operations Lead,2026-03-01,2026-07-31,12000,Open,Pentest,6
+RTP-003,R-001,Quarterly restore test on offline backup,A 8.13,IT Operations Lead,2026-02-01,Recurring,2000,In progress,Test log,6
+RTP-004,R-002,Roll out FIDO2 keys to all staff,A 5.17,ISO,2026-05-01,2026-09-30,15000,Open,Coverage report,6
+RTP-005,R-002,Monthly phishing simulation + targeted retraining,A 6.3,HR Lead,2026-01-01,Recurring,3000,In progress,LMS report,6
+RTP-006,R-003,Deploy outbound DLP rule for PII in email and web,A 8.12,ISO,2026-04-01,2026-09-30,10000,Open,DLP alerts,6
+RTP-007,R-003,Implement strict leaver access revocation within 2h,A 5.11 A 6.5,HR Lead,2026-03-01,2026-06-15,0,In progress,Audit sample,6
+RTP-008,R-004,Qualify a second logistics SaaS provider as standby,A 5.30 A 5.22,Procurement,2026-04-01,2026-12-31,20000,Open,Supplier review,6
+RTP-009,R-004,Monthly supplier status review,A 5.22,Procurement,2026-01-01,Recurring,0,In progress,Review notes,9
+RTP-010,R-005,Implement IaC scanning in CI pipeline,A 8.28 A 8.9,Head of Engineering,2026-03-15,2026-06-30,5000,In progress,Pipeline logs,6
+RTP-011,R-005,Enable S3 public-access block at account level,A 8.9,IT Operations Lead,2026-03-01,2026-04-15,0,Completed,Config report,6

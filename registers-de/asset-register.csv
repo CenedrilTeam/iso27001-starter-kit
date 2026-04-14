@@ -1,0 +1,19 @@
+ID,Asset-Name,Typ,Kategorie,Eigentümer,Verwalter,Standort,Klassifizierung,Kritikalität,Umgebung,Beschreibung,Status
+AST-001,Kundendatenbank (Prod),Information,Datenbank,Vertriebsleitung,IT-Betrieb,AWS eu-central-1,Vertraulich,Hoch,Produktion,Primärer Kundendatenspeicher (PostgreSQL 15),Aktiv
+AST-002,Logistikportal (SaaS),Anwendung,SaaS,Operationsleitung,Anbieter,Anbieter-Cloud,Vertraulich,Hoch,Produktion,Kundenseitiges Logistik-Tracking-Portal,Aktiv
+AST-003,M365-Tenant,Dienst,Cloud,ISB,IT-Betrieb,Microsoft Cloud EU,Intern,Hoch,Produktion,E-Mail Zusammenarbeit und Dateispeicherung,Aktiv
+AST-004,Fileserver FS-01,Hardware,Server,IT-Betriebsleitung,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Hoch,Produktion,On-Prem SMB-Fileshare,Aktiv
+AST-005,Domain Controller DC01 DC02,Hardware,Server,IT-Betriebsleitung,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Kritisch,Produktion,Active Directory Domain Controller,Aktiv
+AST-006,Laptops (Flotte),Hardware,Endgerät,IT-Betriebsleitung,IT-Betrieb,Verteilt,Intern,Mittel,Produktion,145 verwaltete Windows- und macOS-Laptops,Aktiv
+AST-007,ERP-System,Anwendung,On-Prem,CFO,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Hoch,Produktion,SAP Business One,Aktiv
+AST-008,Backup-System Veeam,Anwendung,On-Prem,IT-Betriebsleitung,IT-Betrieb,HQ Hamburg RZ + Offsite,Vertraulich,Kritisch,Produktion,Zentrales Backup mit Offsite-Replikation,Aktiv
+AST-009,SIEM (Splunk),Anwendung,On-Prem,ISB,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Hoch,Produktion,Log-Aggregation und Erkennung,Aktiv
+AST-010,Firewall-Cluster FW-01/02,Hardware,Netzwerk,IT-Betriebsleitung,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Kritisch,Produktion,Perimeter-Firewall HA-Paar (Fortinet),Aktiv
+AST-011,VPN-Gateway,Hardware,Netzwerk,IT-Betriebsleitung,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Hoch,Produktion,Remote-Access-Gateway,Aktiv
+AST-012,S3-Bucket nwl-marketing,Information,Cloud-Speicher,Marketingleitung,IT-Betrieb,AWS eu-central-1,Intern,Mittel,Produktion,Marketing-Assets (Public Read deaktiviert),Aktiv
+AST-013,CI/CD-Pipeline (GitLab),Anwendung,On-Prem,Head of Engineering,IT-Betrieb,HQ Hamburg RZ,Vertraulich,Hoch,Produktion,Quellcodeverwaltung und Build-Pipeline,Aktiv
+AST-014,Mobiltelefone (Flotte),Hardware,Endgerät,IT-Betriebsleitung,IT-Betrieb,Verteilt,Intern,Mittel,Produktion,38 verwaltete iOS-Geräte,Aktiv
+AST-015,HR-Datenbank (Personio),Information,SaaS,HR-Leitung,Anbieter,Personio EU,Vertraulich,Hoch,Produktion,Mitarbeiter-Stammdaten,Aktiv
+AST-016,Physisches HQ-Gebäude,Einrichtung,Gebäude,Facility-Leitung,Facility,Hamburg,Intern,Hoch,Produktion,Hauptbüro 1200 qm + Serverraum,Aktiv
+AST-017,Lohndaten,Information,Datei,HR-Leitung,HR,Personio + lokales Archiv,Streng vertraulich,Hoch,Produktion,Monatliche Lohnabrechnungen,Aktiv
+AST-018,Vertragsarchiv,Information,Datei,Legal,Legal,M365 SharePoint,Vertraulich,Mittel,Produktion,Unterschriebene Verträge,Aktiv

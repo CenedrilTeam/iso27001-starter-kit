@@ -1,0 +1,23 @@
+Role,Required Competence,Proficiency Level,Source,Mandatory,Refresh Interval (months)
+Information Security Officer,ISO/IEC 27001:2022 Lead Implementer,Advanced,External certification,Yes,36
+Information Security Officer,Risk assessment (ISO/IEC 27005),Advanced,External training,Yes,36
+Information Security Officer,Incident response coordination,Advanced,Internal + tabletop,Yes,12
+IT Operations Lead,Linux/Windows hardening (CIS Benchmarks),Advanced,External training,Yes,24
+IT Operations Lead,Backup & restore procedures,Advanced,Internal drills,Yes,12
+IT Operations Lead,Change management (ITIL v4 Foundation),Intermediate,External certification,Yes,36
+System Administrator,Patch management,Intermediate,Vendor training,Yes,12
+System Administrator,Privileged access management,Intermediate,Internal training,Yes,12
+Developer,Secure coding (OWASP Top 10),Intermediate,E-learning + workshop,Yes,12
+Developer,SAST/DAST tool usage,Intermediate,Internal training,Yes,24
+Data Protection Officer,GDPR fundamentals,Advanced,External certification,Yes,36
+Data Protection Officer,DPIA methodology,Advanced,External training,Yes,24
+HR Lead,Background screening process,Intermediate,Internal process training,Yes,24
+HR Lead,Confidentiality obligations for staff,Intermediate,Internal training,Yes,24
+Department Head,Information classification,Basic,E-learning,Yes,12
+Department Head,Incident reporting duties,Basic,E-learning,Yes,12
+All Employees,Security awareness fundamentals,Basic,E-learning,Yes,12
+All Employees,Phishing recognition,Basic,Phishing simulation,Yes,6
+All Employees,Acceptable Use Policy,Basic,E-learning,Yes,12
+All Employees,Data protection basics,Basic,E-learning,Yes,12
+Remote Workers,Remote working security,Basic,E-learning,Yes,12
+Finance Staff,CEO fraud / BEC awareness,Intermediate,Targeted workshop,Yes,12

@@ -1,0 +1,8 @@
+ID,Data / Media,Reason,Method,Standard,Performed By,Verified By,Date,Evidence,Status
+DEL-2026-001,12 retired laptops (AST-006 fleet),End of life,Cryptographic erase + physical shredding,NIST SP 800-88 Rev.1 Purge,Certified vendor SecureIT GmbH,IT Operations Lead,2026-02-20,Certificate of destruction CDS-26-0214,Completed
+DEL-2026-002,5 TB backup tapes (2019-2022),Retention expiry,Degaussing + shredding,NIST SP 800-88 Rev.1 Destroy,Certified vendor SecureIT GmbH,IT Operations Lead,2026-03-05,Certificate CDS-26-0301,Completed
+DEL-2026-003,Customer record (SAR erasure request),GDPR Art. 17,DB row soft-delete + backup tombstone + 30-day purge,GDPR compliant deletion procedure,DPO,ISO,2026-03-12,SAR-2026-007 closure log,Completed
+DEL-2026-004,Former employee M365 mailbox (J. Schmidt),Leaver 90 days past,Delete mailbox + retention policy removal,M365 retention procedure,IT Operations,HR Lead,2026-04-02,M365 audit log entry,Completed
+DEL-2026-005,Test database (staging snapshot 2025-Q4),Old test data,Database drop + S3 object delete,Internal deletion procedure,Head of Engineering,IT Operations Lead,2026-03-18,Pipeline log DEL-2026-005,Completed
+DEL-2026-006,20 USB sticks (inventory clean-up),Reassignment,Cryptographic erase,NIST SP 800-88 Clear,IT Operations,IT Operations Lead,2026-01-15,Erase script log,Completed
+DEL-2026-007,Marketing campaign data (2023 event),Retention expiry,S3 object delete + CRM segment purge,Retention schedule,Marketing Lead,DPO,2026-02-28,S3 lifecycle policy log,Completed

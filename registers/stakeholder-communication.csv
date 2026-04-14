@@ -1,0 +1,13 @@
+Stakeholder,Category,Interest in ISMS,Communication Content,Channel,Frequency,Owner,Language
+Top Management,Internal,Strategic oversight, risk exposure,KPI dashboard, management review results, major incidents,Management review meeting + email,Quarterly,ISO,DE
+Employees,Internal,Policies, awareness, incident reporting,Policy acknowledgements, awareness news, phishing results,Intranet + LMS + email,Monthly,HR Lead,DE
+IT Operations team,Internal,Technical controls, change mgmt,Tickets, change advisory, vulnerability alerts,Ticket system + Teams channel,Continuous,IT Operations Lead,DE
+Works council,Internal,Employee monitoring, remote work,Planned monitoring measures, BYOD rules,Dedicated meeting,On change,HR Lead,DE
+Customers,External,Confidentiality, availability, incidents affecting them,Security factsheet, incident notifications, audit reports,Customer portal + email,On event + annually,Sales Ops,DE/EN
+Data subjects,External,GDPR rights,Privacy notice, breach notifications,Website + email,On change + on event,DPO,DE/EN
+Regulator BfDI,External,GDPR compliance, breach reports,Breach notifications (Art. 33),Online portal,On event,DPO,DE
+NIS2 competent authority (BSI),External,Incident notifications (24h/72h/1M),Early warning, incident notification, final report,BSI reporting portal,On event,ISO,DE
+Suppliers,External,Contractual security requirements,Security questionnaires, audit requests,Email + supplier portal,Annually + on event,Procurement,DE/EN
+Auditors (external),External,Audit evidence,SoA, policies, records,Audit room / secure share,Annually,ISO,DE/EN
+Insurance,External,Cyber risk posture,Controls attestation,Email,Annually,CFO,DE
+Press,External,Crisis communications,Holding statement, factual updates,Press release + briefing,On event,Communications Lead,DE

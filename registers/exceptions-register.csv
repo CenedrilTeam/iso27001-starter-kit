@@ -1,0 +1,7 @@
+ID,Type,Scope,Description,Reason,Compensating Controls,Requested By,Approved By,Granted,Expires,Status
+EXC-2026-001,Malware protection,AST-013 CI runners,Exclude /builds/ directory from real-time AV scan,Builds fail with scan enabled (false positives on artefacts),Weekly offline scan + limited network access for runners,Head of Engineering,ISO,2026-02-01,2026-08-01,Active
+EXC-2026-002,Web filter,Marketing team (12 users),Allow social media platforms (LinkedIn Facebook Instagram X TikTok),Business need for social media campaigns,DLP scan outbound + training,Marketing Lead,ISO,2026-01-15,2027-01-15,Active
+EXC-2026-003,Malware protection,AST-006 (3 developer laptops),Exclude Docker Desktop cache directories,EDR conflicts with containers,EDR policy with Docker-aware rules + network monitoring,Head of Engineering,ISO,2026-03-01,2026-09-01,Active
+EXC-2026-004,Web filter,Threat Intel analyst (1 user),Allow access to malware analysis sandboxes and underground forums,Threat research,Isolated research VM + logged,ISO,ISO + CEO,2026-01-01,2026-12-31,Active
+EXC-2026-005,Password policy,Legacy ERP interface,Allow password length of 10 chars instead of 14,System does not support longer passwords,Account lockout after 5 failed attempts + MFA on jump host,IT Operations Lead,ISO,2025-11-01,2026-11-01,Active
+EXC-2026-006,Web filter,Finance team (4 users),Allow banking portals,Business need,Monitored + DLP rules,CFO,ISO,2026-01-01,2027-01-01,Active

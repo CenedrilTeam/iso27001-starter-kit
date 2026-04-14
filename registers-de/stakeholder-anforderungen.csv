@@ -1,0 +1,13 @@
+ID,Stakeholder,Bedürfnis,Abgeleitete Anforderung,Quelle,Priorität,Abgedeckt durch,Status
+SR-001,Kunden,Ihre Daten sind vertraulich und verfügbar,Verschlüsselung bei Übertragung und Speicherung; 99,5 % Verfügbarkeits-SLA,Kundenverträge,Hoch,Kryptographie-Richtlinie + BCM-Richtlinie,Abgedeckt
+SR-002,Kunden,Vorfallmeldung in angemessener Zeit,Breach-Meldung innerhalb 72 h an betroffene Kunden,Master Service Agreement,Hoch,Incident Response Plan,Abgedeckt
+SR-003,Geschäftsleitung,Regulatorische Compliance ohne Überraschungen,Quartalsweises Compliance-Dashboard + jährliches Management-Review,Unternehmensstrategie,Hoch,Management-Review-Verfahren,Abgedeckt
+SR-004,Mitarbeitende,Klare Regeln zur Nutzung von IT und Daten,Richtlinie zur akzeptablen Nutzung veröffentlicht und bestätigt,Betriebsvereinbarung,Mittel,Richtlinie zur akzeptablen Nutzung,Abgedeckt
+SR-005,Betriebsrat,Keine verdeckte Überwachung der Mitarbeitenden,Transparente Logging-Regeln und keine Verhaltensprofile,Betriebsvereinbarung 2024,Hoch,AUP Abschnitt 7,Abgedeckt
+SR-006,BfDI (DSGVO-Aufsichtsbehörde),Rechtmäßige Verarbeitung personenbezogener Daten,Verarbeitungsverzeichnis, DSFA-Verfahren, Breach-Meldung,DSGVO Art. 5 30 33 35,Hoch,Datenschutzrichtlinie + DSFA-Verfahren,Abgedeckt
+SR-007,BSI (NIS2-Behörde),Frühwarnung innerhalb 24 h bei erheblichen Vorfällen,24-h-Frühwarnung + 72-h-Vorfallmeldung,NIS2 Art. 23,Hoch,Incident Response Plan,Abgedeckt
+SR-008,Lieferanten,Klare vertragliche Sicherheitspflichten,Sicherheitsklauseln in Lieferantenverträgen,Lieferanten-Sicherheitsrichtlinie,Mittel,Lieferanten-Sicherheitsrichtlinie,Abgedeckt
+SR-009,Auditoren,Zeitnaher Zugriff auf Nachweise,Nachweis-Repository je ISO-Klausel,ISO 27001 Auditplan,Mittel,Dokumentenlenkungs-Verfahren,Abgedeckt
+SR-010,Versicherung,Nachweisbare Basis-Kontrollen,Jährliche Kontrollbestätigung,Cyber-Police 2026,Mittel,SoA + Management-Review,Abgedeckt
+SR-011,Betroffene Personen,Ausübung ihrer DSGVO-Rechte,Prozess für Betroffenenanfragen innerhalb 30 Tagen,DSGVO Art. 15-22,Hoch,DSB-Verfahren für Betroffenenanfragen,Abgedeckt
+SR-012,Presse,Sachliche Informationen während Vorfällen,Vorab genehmigtes Holding Statement,Krisenkommunikations-Richtlinie,Niedrig,Krisenkommunikations-Template,Abgedeckt

@@ -1,0 +1,21 @@
+Activity,Top Management,Information Security Officer (ISO),IT Operations Lead,HR Lead,Data Protection Officer,Department Heads,All Employees
+Approve Information Security Policy,A,R,C,C,C,I,I
+Maintain Risk Register,I,A,R,C,C,C,I
+Perform Risk Assessments,I,A,R,C,C,R,I
+Approve Risk Treatment Plan,A,R,C,I,C,C,I
+Maintain Statement of Applicability,I,A/R,C,I,C,I,I
+Conduct Internal Audits,A,R,C,I,C,I,I
+Run Management Review,A/R,R,C,C,C,C,I
+Manage Security Incidents,I,A,R,I,C,C,R
+Manage Access Rights,I,A,R,C,I,R,I
+Run Awareness Training,I,A,C,R,C,C,R
+Classify Information,I,A,C,C,C,R,R
+Approve Changes (CAB),I,C,A/R,I,I,C,I
+Vulnerability & Patch Management,I,A,R,I,I,I,I
+Supplier Security Review,I,A,C,I,C,R,I
+Business Continuity Planning,A,R,R,C,I,R,I
+Handle Subject Access Requests,I,C,C,C,A/R,I,I
+Maintain Asset Register,I,A,R,I,I,R,I
+Report Security Incidents,I,A,C,C,C,R,R
+Key Management (Cryptography),I,A,R,I,I,I,I
+Legend,R = Responsible,A = Accountable,C = Consulted,I = Informed,,,

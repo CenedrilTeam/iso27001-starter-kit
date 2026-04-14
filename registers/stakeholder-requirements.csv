@@ -1,0 +1,13 @@
+ID,Stakeholder,Need,Derived Requirement,Source,Priority,Covered By,Status
+SR-001,Customers,Their data is confidential and available,"Encryption in transit and at rest; 99.5% availability SLA",Customer contracts,High,Cryptography Policy + BCM Policy,Covered
+SR-002,Customers,Breach notification within reasonable time,Breach notification within 72h to affected customers,Master services agreement,High,Incident Response Plan,Covered
+SR-003,Top Management,Regulatory compliance without surprises,Quarterly compliance dashboard + annual management review,Company strategy,High,Management review procedure,Covered
+SR-004,Employees,Clear rules for using IT equipment and data,Acceptable Use Policy published and acknowledged,Works council agreement,Medium,Acceptable Use Policy,Covered
+SR-005,Works council,No covert monitoring of employees,Transparent logging rules and no behaviour profiling,Works council agreement 2024,High,Acceptable Use Policy section 7,Covered
+SR-006,BfDI (GDPR regulator),Lawful processing of personal data,RoPA, DPIA process, breach notification process,GDPR Art. 5 30 33 35,High,Data Protection Policy + DPIA procedure,Covered
+SR-007,BSI (NIS2 authority),Early warning within 24h of significant incidents,24h early warning + 72h incident notification,NIS2 Art. 23,High,Incident Response Plan,Covered
+SR-008,Suppliers,Clear contractual security obligations,Supplier security clauses in contracts,Supplier Security Policy,Medium,Supplier Security Policy,Covered
+SR-009,Auditors,Timely access to evidence,Evidence repository per ISO clause,ISO 27001 audit plan,Medium,Document control process,Covered
+SR-010,Insurance,Demonstrable baseline controls,Annual controls attestation,Cyber policy 2026,Medium,SoA + management review,Covered
+SR-011,Data subjects,Exercise their GDPR rights,Process for subject access requests within 30 days,GDPR Art. 15-22,High,DPO SAR procedure,Covered
+SR-012,Press,Factual information during incidents,Pre-approved holding statement,Crisis comms policy,Low,Crisis communication template,Covered

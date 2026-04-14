@@ -1,0 +1,12 @@
+ID,Risiko-ID,Maßnahme,Annex-A-Kontrolle,Verantwortlich,Startdatum,Fällig,Budget (EUR),Status,Verifikation,Restrisikowert nach Maßnahme
+RTP-001,R-001,Phishing-resistente MFA (FIDO2) für alle Admin-Konten,A 5.17 A 8.5,IT-Betriebsleitung,2026-02-01,2026-06-30,8000,In Bearbeitung,Audit-Test Q3,6
+RTP-002,R-001,Backup-Netz segmentieren und Zugangsdaten isolieren,A 8.12 A 8.20,IT-Betriebsleitung,2026-03-01,2026-07-31,12000,Offen,Pentest,6
+RTP-003,R-001,Quartalsweise Restore-Tests auf Offline-Backup,A 8.13,IT-Betriebsleitung,2026-02-01,Fortlaufend,2000,In Bearbeitung,Testprotokoll,6
+RTP-004,R-002,FIDO2-Schlüssel für alle Mitarbeitenden ausrollen,A 5.17,ISB,2026-05-01,2026-09-30,15000,Offen,Coverage-Report,6
+RTP-005,R-002,Monatliche Phishing-Simulation + gezielte Nachschulung,A 6.3,HR-Leitung,2026-01-01,Fortlaufend,3000,In Bearbeitung,LMS-Bericht,6
+RTP-006,R-003,Ausgehende DLP-Regel für PII in E-Mail und Web,A 8.12,ISB,2026-04-01,2026-09-30,10000,Offen,DLP-Meldungen,6
+RTP-007,R-003,Strikter Leaver-Entzug innerhalb 2 h umsetzen,A 5.11 A 6.5,HR-Leitung,2026-03-01,2026-06-15,0,In Bearbeitung,Audit-Stichprobe,6
+RTP-008,R-004,Zweiten Logistik-SaaS-Anbieter als Standby qualifizieren,A 5.30 A 5.22,Einkauf,2026-04-01,2026-12-31,20000,Offen,Lieferantenreview,6
+RTP-009,R-004,Monatliches Lieferantenstatus-Review,A 5.22,Einkauf,2026-01-01,Fortlaufend,0,In Bearbeitung,Review-Notizen,9
+RTP-010,R-005,IaC-Scanning in CI-Pipeline einführen,A 8.28 A 8.9,Head of Engineering,2026-03-15,2026-06-30,5000,In Bearbeitung,Pipeline-Logs,6
+RTP-011,R-005,S3-Public-Access-Block auf Account-Ebene aktivieren,A 8.9,IT-Betriebsleitung,2026-03-01,2026-04-15,0,Abgeschlossen,Konfig-Report,6

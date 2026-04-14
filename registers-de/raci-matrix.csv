@@ -1,0 +1,21 @@
+Tätigkeit,Geschäftsleitung,Informationssicherheitsbeauftragte/r (ISB),IT-Betriebsleitung,HR-Leitung,Datenschutzbeauftragte/r,Abteilungsleitungen,Alle Mitarbeitende
+Informationssicherheitsrichtlinie genehmigen,A,R,C,C,C,I,I
+Risikoregister pflegen,I,A,R,C,C,C,I
+Risikobeurteilungen durchführen,I,A,R,C,C,R,I
+Risikobehandlungsplan genehmigen,A,R,C,I,C,C,I
+Statement of Applicability pflegen,I,A/R,C,I,C,I,I
+Interne Audits durchführen,A,R,C,I,C,I,I
+Management-Review durchführen,A/R,R,C,C,C,C,I
+Sicherheitsvorfälle managen,I,A,R,I,C,C,R
+Zugriffsrechte verwalten,I,A,R,C,I,R,I
+Awareness-Schulungen durchführen,I,A,C,R,C,C,R
+Informationen klassifizieren,I,A,C,C,C,R,R
+Changes genehmigen (CAB),I,C,A/R,I,I,C,I
+Schwachstellen- und Patch-Management,I,A,R,I,I,I,I
+Lieferanten-Sicherheitsprüfung,I,A,C,I,C,R,I
+Geschäftskontinuitätsplanung,A,R,R,C,I,R,I
+Betroffenenanfragen bearbeiten,I,C,C,C,A/R,I,I
+Asset-Register pflegen,I,A,R,I,I,R,I
+Sicherheitsvorfälle melden,I,A,C,C,C,R,R
+Schlüsselverwaltung (Kryptographie),I,A,R,I,I,I,I
+Legende,R = Responsible (durchführend),A = Accountable (rechenschaftspflichtig),C = Consulted (konsultiert),I = Informed (informiert),,,

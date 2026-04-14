@@ -1,0 +1,8 @@
+ID,Daten / Medien,Grund,Methode,Standard,Durchgeführt von,Verifiziert von,Datum,Nachweis,Status
+DEL-2026-001,12 ausgemusterte Laptops (AST-006 Flotte),Lebensende,Kryptografisches Löschen + physisches Schreddern,NIST SP 800-88 Rev.1 Purge,Zertifizierter Anbieter SecureIT GmbH,IT-Betriebsleitung,2026-02-20,Vernichtungszertifikat CDS-26-0214,Abgeschlossen
+DEL-2026-002,5 TB Backup-Bänder (2019-2022),Aufbewahrungsfrist abgelaufen,Degaussing + Schreddern,NIST SP 800-88 Rev.1 Destroy,Zertifizierter Anbieter SecureIT GmbH,IT-Betriebsleitung,2026-03-05,Zertifikat CDS-26-0301,Abgeschlossen
+DEL-2026-003,Kundendatensatz (SAR-Löschantrag),DSGVO Art. 17,DB-Zeile Soft-Delete + Backup-Tombstone + 30-Tage-Purge,DSGVO-konformes Löschverfahren,DSB,ISB,2026-03-12,SAR-2026-007 Abschlusslog,Abgeschlossen
+DEL-2026-004,Ehemaliges Mitarbeiter-M365-Postfach (J. Schmidt),Leaver 90 Tage vorbei,Postfach löschen + Aufbewahrungsrichtlinie entfernen,M365-Aufbewahrungsverfahren,IT-Betrieb,HR-Leitung,2026-04-02,M365 Audit-Log-Eintrag,Abgeschlossen
+DEL-2026-005,Testdatenbank (Staging-Snapshot 2025-Q4),Alte Testdaten,Datenbank-Drop + S3-Objekt-Löschung,Internes Löschverfahren,Head of Engineering,IT-Betriebsleitung,2026-03-18,Pipeline-Log DEL-2026-005,Abgeschlossen
+DEL-2026-006,20 USB-Sticks (Bestandsbereinigung),Neuzuweisung,Kryptografisches Löschen,NIST SP 800-88 Clear,IT-Betrieb,IT-Betriebsleitung,2026-01-15,Lösch-Skript-Log,Abgeschlossen
+DEL-2026-007,Marketing-Kampagnendaten (Event 2023),Aufbewahrungsfrist abgelaufen,S3-Objekt-Löschung + CRM-Segment-Bereinigung,Aufbewahrungsplan,Marketingleitung,DSB,2026-02-28,S3-Lifecycle-Policy-Log,Abgeschlossen

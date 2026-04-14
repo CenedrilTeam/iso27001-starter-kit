@@ -1,0 +1,11 @@
+ID,Title,Type,Category,Requester,Owner,Systems,Risk,Impact,Rollback Plan,Planned Start,Planned End,CAB Date,CAB Decision,Actual Result,Closure Date
+CHG-2026-001,Upgrade Veeam backup server to v12.1,Normal,Infrastructure,IT Operations,Markus Schulz,AST-008,Medium,Backup window extended by 2h,Restore from snapshot,2026-03-15 22:00,2026-03-15 04:00,2026-03-11,Approved,Success,2026-03-16
+CHG-2026-002,Deploy FIDO2 keys to admin accounts (phase 1),Normal,Security,ISO,Anna Weber,All admin accounts,Low,Admin login flow change,Revert policy + keep TOTP,2026-04-05 18:00,2026-04-05 20:00,2026-04-01,Approved,Success,2026-04-06
+CHG-2026-003,Emergency FortiOS patch (CVE-2025-32756),Emergency,Security,IT Operations,Markus Schulz,AST-010,High,5 min outage during failover,Roll back firmware,2025-05-14 02:00,2025-05-14 02:30,Post-approved 2025-05-14,Approved,Success,2025-05-14
+CHG-2026-004,Rotate VPN pre-shared key,Standard,Security,IT Operations,IT Operations,AST-011,Low,None (rolling),N/A,2026-04-01 20:00,2026-04-01 20:30,Pre-approved (standard),Approved,Success,2026-04-01
+CHG-2026-005,Add new VLAN for IoT devices,Normal,Network,Facilities,Markus Schulz,AST-010,Low,None,Remove VLAN,2026-03-20 19:00,2026-03-20 21:00,2026-03-18,Approved,Success,2026-03-20
+CHG-2026-006,Migrate file server to new storage,Normal,Infrastructure,IT Operations,Markus Schulz,AST-004,High,4h downtime,Revert DNS to old server,2026-05-10 22:00,2026-05-11 02:00,2026-05-06,Approved,Planned,
+CHG-2026-007,Enable S3 public-access block account-wide,Normal,Security,ISO,Anna Weber,AST-012,Low,None (bucket already private),Revert setting,2026-03-18 16:00,2026-03-18 16:15,2026-03-18,Approved,Success,2026-03-18
+CHG-2026-008,Update Acceptable Use Policy v2.1,Standard,Policy,ISO,Anna Weber,Document system,Low,None,Revert to v2.0,2026-02-01 09:00,2026-02-01 09:30,Pre-approved (standard),Approved,Success,2026-02-01
+CHG-2026-009,Deploy new EDR agent to fleet,Normal,Security,IT Operations,Markus Schulz,AST-006,Medium,Possible performance hit,Uninstall via MDM,2026-04-18 18:00,2026-04-18 22:00,2026-04-15,Approved,In progress,
+CHG-2026-010,Install quarterly patches Q2,Standard,Security,IT Operations,IT Operations,AST-004 AST-005 AST-006,Medium,Reboot required,Rollback patch via WSUS,2026-04-10 22:00,2026-04-11 04:00,Pre-approved (standard),Approved,Success,2026-04-11
