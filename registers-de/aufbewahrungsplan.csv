@@ -1,0 +1,28 @@
+ID,Datenkategorie,Beschreibung,Eigentümer,Speicherort,Format,Aufbewahrungsfrist,Rechtsgrundlage / Quelle,Entsorgungsmethode,Anmerkungen
+RET-001,Kundenverträge,Unterzeichnete Rahmenverträge und Auftragsbestätigungen,Legal,M365 SharePoint,Digital,10 Jahre nach Vertragsende,§ 257 HGB + zivilrechtliche Verjährung,Kryptografisches Löschen,
+RET-002,Lieferantenverträge,Unterzeichnete Lieferantenverträge + AVV,Einkauf,M365 SharePoint,Digital,10 Jahre nach Vertragsende,§ 257 HGB,Kryptografisches Löschen,
+RET-003,Ausgangsrechnungen,Kundenrechnungen,Finanzen,ERP + Archiv,Digital,10 Jahre,§ 147 AO + § 257 HGB,ERP-Archiv-Bereinigung,Steuerrechtliche Pflicht
+RET-004,Eingangsrechnungen,Lieferantenrechnungen,Finanzen,ERP + Archiv,Digital,10 Jahre,§ 147 AO + § 257 HGB,ERP-Archiv-Bereinigung,
+RET-005,Buchhaltungsunterlagen,Hauptbuch Journale Jahresabschlüsse,Finanzen,ERP + Archiv,Digital,10 Jahre,§ 147 AO + § 257 HGB,ERP-Archiv-Bereinigung,
+RET-006,Lohnunterlagen,Monatliche Lohnabrechnungen,HR,Personio + sicheres Archiv,Digital,10 Jahre,§ 41 EStG + Sozialversicherungsrecht,Anbieter-Bereinigung + lokale Löschung,
+RET-007,Personalakten (aktiv),Arbeitsvertrag Qualifikationen Beurteilungen,HR,Personio,Digital,Während Beschäftigung + 3 Jahre nach Austritt,§ 195 BGB + Arbeitgeberpflichten,Anbieter-Bereinigung,
+RET-008,Bewerbungen (abgelehnt),Lebensläufe Anschreiben Interviewnotizen,HR,Personio Bewerbermanagement,Digital,6 Monate nach Absage,§ 15 AGG + DSGVO Art. 5(1)(e),Automatisierte Bereinigung,Länger nur mit Einwilligung
+RET-009,Background-Screening-Ergebnisse,Vor-Einstellungs-Prüfungen,HR,Verschlüsseltes HR-Archiv,Digital,Beschäftigungsdauer + 6 Monate,§ 26 BDSG,Anbieter-Bereinigung,
+RET-010,Kunden-Stammdaten,Konteninformationen Kontaktdaten,Vertrieb,CRM + Kunden-DB,Digital,10 Jahre nach letzter Geschäftstätigkeit,Vertraglich + § 147 AO,Soft Delete + 30-Tage-Bereinigung,
+RET-011,Kunden-Transaktionsdaten (Sendungen),Sendungsdaten Tracking-Historie,Operations,Logistikportal + DWH,Digital,3 Jahre nach Zustellung,Operativ + Verjährung,Automatisierte Archiv-Bereinigung,
+RET-012,Marketing-Einwilligungen,Newsletter-Anmeldungen Marketing-Opt-ins,Marketing,Marketing-Automation-Tool,Digital,Bis Widerruf + 3 Jahre,DSGVO Art. 5 + 7 + Art. 17,Automatisierte Bereinigung,
+RET-013,Verzeichnis von Verarbeitungstätigkeiten,DSGVO Art. 30 Register,DSB,DSMS-Tool,Digital,Fortlaufend + 3 Jahre nach Verarbeitungsende,DSGVO Art. 30,Manuell,
+RET-014,Betroffenenanfragen,SAR-Datensätze Löschanträge Widersprüche,DSB,DSMS-Tool,Digital,3 Jahre nach Abschluss,DSGVO-Rechenschaftspflicht + § 195 BGB,Manuell,
+RET-015,Datenschutzverletzungs-Aufzeichnungen,Breach-Meldungen interne Untersuchungen,DSB,DSMS-Tool,Digital,5 Jahre nach Abschluss,DSGVO Art. 33(5),Manuell,
+RET-016,DSFAs,Datenschutz-Folgenabschätzungen,DSB,DSMS-Tool,Digital,Lebensdauer der Verarbeitung + 3 Jahre,DSGVO Art. 35,Manuell,
+RET-017,Informationssicherheits-Vorfallsdaten,Vorfalltickets Untersuchungen Beweise,ISB,SIEM + Ticketsystem,Digital,5 Jahre nach Abschluss,A.5.27 + ISO 27001 9.1,Automatisierte Archiv-Bereinigung,Länger bei forensischen Beweisen
+RET-018,Interne Audit-Berichte,Auditpläne Berichte CAPAs,ISB,Dokumentensystem,Digital,5 Jahre,ISO 27001 7.5 + 9.2,Manuell,
+RET-019,Management-Review-Protokolle,Management-Review-Aufzeichnungen,ISB,Dokumentensystem,Digital,5 Jahre,ISO 27001 7.5 + 9.3,Manuell,
+RET-020,Risikoregister- und SoA-Historie,Risikobeurteilungen Behandlungspläne SoA-Versionen,ISB,Dokumentensystem,Digital,5 Jahre je Version,ISO 27001 6.1 + 7.5,Manuell,
+RET-021,Awareness-Schulungsnachweise,Abschlusszertifikate Teilnehmerlisten,HR,LMS,Digital,3 Jahre,A.6.3 + Auditnachweis,Automatisierte Bereinigung,
+RET-022,Zugriffslogs (System),Authentifizierungslogs Admin-Aktionen,IT-Betrieb,SIEM,Digital,12 Monate online + 12 Monate Cold Storage,A.8.15 + § 100 TKG (wo anwendbar),Automatisierte Rotation,Länger bei aktiver Untersuchung
+RET-023,Videoüberwachung,Gebäudezugang Überwachung,Facility,On-Prem NVR,Digital,72 Stunden,§ 4 BDSG + Betriebsvereinbarung,Automatisches Überschreiben,
+RET-024,Besucherlisten,Anmeldedaten am Empfang,Facility,Besuchermanagementsystem,Digital,3 Monate,§ 26 BDSG,Manuelle Bereinigung,
+RET-025,Penetrationstest-Berichte,Externe Pentest-Berichte Remediation-Tracking,ISB,Verschlüsseltes Dokumentensystem,Digital,5 Jahre,Auditnachweis,Manuell,
+RET-026,Backup-Daten,Backup-Snapshots,IT-Betrieb,Backup-System,Digital,Gemäß System-Aufbewahrungsrichtlinie (typisch 30-90 Tage),Operativ,Automatisierte Rotation,
+RET-027,E-Mail-Archiv,Geschäfts-E-Mail,IT-Betrieb,M365 + Veeam,Digital,10 Jahre (sofern steuerrelevante Inhalte),§ 147 AO,Automatisierte Archiv-Bereinigung,

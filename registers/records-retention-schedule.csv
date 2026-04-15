@@ -1,0 +1,28 @@
+ID,Record Category,Description,Owner,Storage Location,Format,Retention Period,Legal Basis / Source,Disposal Method,Notes
+RET-001,Customer contracts,Signed master agreements and order forms,Legal,M365 SharePoint,Digital,10 years after contract end,§ 257 HGB + civil law statute of limitations,Cryptographic erase,
+RET-002,Supplier contracts,Signed supplier agreements + DPAs,Procurement,M365 SharePoint,Digital,10 years after contract end,§ 257 HGB,Cryptographic erase,
+RET-003,Invoices outgoing,Customer invoices,Finance,ERP + archive,Digital,10 years,§ 147 AO + § 257 HGB,ERP archive purge,Tax law mandatory
+RET-004,Invoices incoming,Supplier invoices,Finance,ERP + archive,Digital,10 years,§ 147 AO + § 257 HGB,ERP archive purge,
+RET-005,Accounting records,General ledger journals annual statements,Finance,ERP + archive,Digital,10 years,§ 147 AO + § 257 HGB,ERP archive purge,
+RET-006,Payroll records,Monthly payroll runs,HR,Personio + secure archive,Digital,10 years,§ 41 EStG + social security law,Vendor purge + local erase,
+RET-007,Employee personnel files (active),Employment contract qualifications appraisals,HR,Personio,Digital,During employment + 3 years after leaving,§ 195 BGB + employer obligations,Vendor purge,
+RET-008,Job applications (rejected),CVs cover letters interview notes,HR,Personio applicant tracking,Digital,6 months after rejection,§ 15 AGG + GDPR Art. 5(1)(e),Automated purge,Longer only with consent
+RET-009,Background screening results,Pre-employment checks,HR,Encrypted HR archive,Digital,Duration of employment + 6 months,§ 26 BDSG,Vendor purge,
+RET-010,Customer master data,Account records contact details,Sales,CRM + customer DB,Digital,10 years after last business activity,Contractual + § 147 AO,Soft delete + 30 day purge,
+RET-011,Customer transactional data (shipments),Shipment records tracking history,Operations,Logistics portal + DWH,Digital,3 years after delivery,Operational + statute of limitations,Automated archive purge,
+RET-012,Marketing consent records,Newsletter consents marketing opt-ins,Marketing,Marketing automation tool,Digital,Until withdrawal + 3 years,GDPR Art. 5 + 7 + Art. 17,Automated purge,
+RET-013,Records of processing activities (RoPA),GDPR Art. 30 register,DPO,DSMS tool,Digital,Continuous + 3 years after processing ends,GDPR Art. 30,Manual,
+RET-014,Data subject requests,SAR records erasure requests objections,DPO,DSMS tool,Digital,3 years after closure,GDPR accountability + § 195 BGB,Manual,
+RET-015,Personal data breach records,Breach notifications internal investigations,DPO,DSMS tool,Digital,5 years after closure,GDPR Art. 33(5),Manual,
+RET-016,DPIAs,Data protection impact assessments,DPO,DSMS tool,Digital,Lifetime of processing + 3 years,GDPR Art. 35,Manual,
+RET-017,Information security incident records,Incident tickets investigations evidence,ISO,SIEM + ticket system,Digital,5 years after closure,A.5.27 + ISO 27001 9.1,Automated archive purge,Longer if forensic evidence
+RET-018,Internal audit reports,Audit plans reports CAPAs,ISO,Document system,Digital,5 years,ISO 27001 7.5 + 9.2,Manual,
+RET-019,Management review minutes,Management review records,ISO,Document system,Digital,5 years,ISO 27001 7.5 + 9.3,Manual,
+RET-020,Risk register and SoA history,Risk assessments treatment plans SoA versions,ISO,Document system,Digital,5 years per version,ISO 27001 6.1 + 7.5,Manual,
+RET-021,Awareness training records,Completion certificates attendance lists,HR,LMS,Digital,3 years,A.6.3 + audit evidence,Automated purge,
+RET-022,Access logs (system),Authentication logs admin actions,IT Operations,SIEM,Digital,12 months online + 12 months cold storage,A.8.15 + § 100 TKG (where applicable),Automated rotation,Longer if active investigation
+RET-023,CCTV footage,Building entry monitoring,Facilities,On-prem NVR,Digital,72 hours,§ 4 BDSG + works council agreement,Automated overwrite,
+RET-024,Visitor logs,Sign-in records at reception,Facilities,Visitor management system,Digital,3 months,§ 26 BDSG,Manual purge,
+RET-025,Penetration test reports,External pentest reports remediation tracking,ISO,Encrypted document system,Digital,5 years,Audit evidence,Manual,
+RET-026,Backup data,Backup snapshots,IT Operations,Backup system,Digital,Per system retention policy (typically 30-90 days),Operational,Automated rotation,
+RET-027,Email archive,Business email,IT Operations,M365 + Veeam,Digital,10 years (where containing tax-relevant content),§ 147 AO,Automated archive purge,

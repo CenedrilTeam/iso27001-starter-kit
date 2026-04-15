@@ -1,0 +1,11 @@
+ID,Objective,Linked ISO Clause / Risk,Owner,Metric,Baseline (start of year),Target,Measurement Frequency,Current Value,Status,Review Date,Linked Action
+OBJ-2026-01,Reduce phishing simulation click rate below 5%,ISO 6.2 + R-002,ISO,% of users clicking simulated phishing,5.8% (2025-12),<5% by 2026-12-31,Quarterly,4.2% (2026-Q1),On track,2026-06-30,RTP-005
+OBJ-2026-02,Achieve 100% phishing-resistant MFA for all admin accounts,ISO 6.2 + R-001 + R-002,ISO,% of admin accounts on FIDO2,0% (2025-12),100% by 2026-06-30,Monthly,48% (2026-04),On track,2026-06-30,RTP-001
+OBJ-2026-03,Roll out FIDO2 to all staff,ISO 6.2 + R-002,ISO,% of users with FIDO2 enrolled,0% (2025-12),100% by 2026-09-30,Monthly,12% (2026-04),On track,2026-09-30,RTP-004
+OBJ-2026-04,Close all critical and high vulnerabilities within SLA for two consecutive quarters,ISO 6.2 + A.8.8,IT Operations Lead,% of vulns closed within SLA,89% (2025-Q4),100% in 2026-Q3 and Q4,Monthly,92% (2026-Q1),Behind,2026-09-30,CAPA-2026-004
+OBJ-2026-05,Pass external surveillance audit with no major findings,ISO 9.2 + 9.3,ISO,Number of major findings,1 (2025 audit),0 in 2026,Annual,Pending audit,Pending,2026-05-18,
+OBJ-2026-06,Increase awareness training completion above 95%,A.6.3,HR Lead,% of staff completing annual awareness training,93% (2025),>95% by 2026-12-31,Quarterly,96% (2026-Q1),Achieved,2026-12-31,
+OBJ-2026-07,Reduce mean time to detect (MTTD) for security incidents below 2 hours,ISO 6.2 + A.5.25,ISO,Hours from incident occurrence to detection (median),2h 45min (2025),<2h by 2026-12-31,Quarterly,1h 35min (2026-Q1),Achieved,2026-12-31,
+OBJ-2026-08,Qualify a second logistics SaaS provider as standby,R-004 + A.5.30,Procurement,Provider qualified (yes/no),No,Yes by 2026-12-31,Quarterly,Vendor shortlist agreed,On track,2026-12-31,RTP-008
+OBJ-2026-09,Achieve 100% supplier security review coverage for critical suppliers,A.5.22,Procurement,% of critical suppliers reviewed within 12 months,80% (2025),100% by 2026-12-31,Quarterly,92% (2026-Q1),On track,2026-12-31,
+OBJ-2026-10,Run two BCM exercises per year for critical processes,A.5.29 + A.5.30,BCM Lead,Number of exercises per year,1 (2025),2 by 2026-12-31,Annual,1 completed (2026-Q2),On track,2026-12-31,
