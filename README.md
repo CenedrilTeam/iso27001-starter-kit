@@ -1,10 +1,10 @@
 # ISO 27001 Starter Kit
 
-**21 policies, 23 registers, 8 plans & reports — everything you need to build an ISO 27001-compliant ISMS.** Bilingual (DE + EN), audit-ready, free to use.
+**Policies, registers, plans & reports — everything you need to build an ISO 27001-compliant Information Security Management System (ISMS).** Multilingual, audit-ready, free to use.
 
 Each document is a fully written template with placeholders. Replace `[YOUR_ORGANISATION_NAME]` and the other placeholders, review the defaults, get management approval — done.
 
-> **Browse with context:** The [Cenedril Wiki](https://cenedril.net/wiki/starter-kit/) renders every document with explanations, FAQs, and a full ISO 27001 coverage matrix. Community contributions merged here appear on the wiki automatically.
+> **Browse with context:** The [Cenedril Wiki](https://cenedril.net/wiki/starter-kit/) renders every document with explanations, FAQs, and other helpful information. Community contributions merged here appear on the wiki automatically.
 
 ## What's included
 
@@ -50,7 +50,7 @@ The starter kit covers **all 93 Annex A controls** and **all ISMS clauses (4–1
 
 | Control | Title | Covered by |
 |---|---|---|
-| A.5.1 | Policies for information security | Policy Governance, Information Security Policy |
+| A.5.1 | Policies for information security | ISMS Governance Policy, Information Security Policy |
 | A.5.2 | Information security roles and responsibilities | Information Security Policy |
 | A.5.3 | Segregation of duties | Access Control Policy |
 | A.5.4 | Management responsibilities | Information Security Policy |
@@ -84,9 +84,9 @@ The starter kit covers **all 93 Annex A controls** and **all ISMS clauses (4–1
 | A.5.32 | Intellectual property rights | Intellectual Property Rights Policy |
 | A.5.33 | Protection of records | Data Deletion & DLP Policy, Records Retention Schedule |
 | A.5.34 | Privacy and protection of PII | Data Deletion & DLP Policy |
-| A.5.35 | Independent review of information security | Policy Governance |
-| A.5.36 | Compliance with policies, rules and standards | Policy Governance |
-| A.5.37 | Documented operating procedures | Policy Governance |
+| A.5.35 | Independent review of information security | ISMS Governance Policy |
+| A.5.36 | Compliance with policies, rules and standards | ISMS Governance Policy |
+| A.5.37 | Documented operating procedures | ISMS Governance Policy |
 
 ### A.6 — People Controls
 
@@ -186,6 +186,6 @@ All documents are released under **Creative Commons Attribution 4.0** (CC BY 4.0
 
 ## About Cenedril
 
-This starter kit is maintained by the team behind [Cenedril](https://cenedril.net) — an ISMS automation platform that turns these templates into a living management system with versioning, workflow integration, PDF generation, and audit trails.
+This starter kit is maintained by the team behind [Cenedril](https://cenedril.net) — an ISMS automation platform that turns these templates into a living management system with versioning, workflow integration, PDF generation, audit trails and a bunch more bells and whistles .
 
 The templates are yours to keep, fork, and modify. No strings attached.
