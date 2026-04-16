@@ -122,7 +122,7 @@ Business records created or transmitted through transfer channels are subject to
 Information transfers comply with all applicable legal, statutory, regulatory and contractual obligations:
 
 - **Data protection:** Personal data is transferred in compliance with the GDPR and applicable national data protection laws. Cross-border transfers outside the EEA use approved transfer mechanisms (adequacy decisions, standard contractual clauses, binding corporate rules).
-- **Electronic signatures:** Where legal or regulatory requirements demand authenticated documents (contracts, regulatory filings, audit reports), qualified electronic signatures conforming to eIDAS Regulation (EU) 910/2014 or equivalent national law are used.
+- **Electronic signatures:** Where legal or regulatory requirements demand authenticated documents (contracts, regulatory filings, audit reports), qualified electronic signatures conforming to eIDAS Regulation (EU) 910/2014 or equivalent national law can be used.
 - **Sector-specific regulations:** Transfers subject to sector-specific rules (e.g. financial regulations, healthcare data requirements, critical infrastructure obligations under NIS2) comply with the additional controls specified in those regulations. The legal and regulatory register maintained by the organisation documents which regulations apply.
 - **Contractual obligations:** Transfers to or from contractual partners follow the security requirements stipulated in the relevant contract or service agreement. Non-disclosure agreements (NDAs) are in place before exchanging CONFIDENTIAL or higher information with external parties.
 
