@@ -186,6 +186,6 @@ All documents are released under **Creative Commons Attribution 4.0** (CC BY 4.0
 
 ## About Cenedril
 
-This starter kit is maintained by the team behind [Cenedril](https://cenedril.net) — an ISMS automation platform that turns these templates into a living management system with versioning, workflow integration, PDF generation, audit trails and a bunch more bells and whistles .
+This starter kit is maintained by the team behind [Cenedril](https://cenedril.net) — an ISMS automation platform that turns these templates into a living management system with versioning, workflow integration, PDF generation, audit trails and a bunch more bells and whistles.
 
 The templates are yours to keep, fork, and modify. No strings attached.
