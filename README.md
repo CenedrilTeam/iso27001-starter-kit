@@ -1,61 +1,191 @@
-# Open Source ISO 27001 Policy Templates
+# ISO 27001 Starter Kit
 
-A free, open set of ISO/IEC 27001:2022 and ISO/IEC 27005:2022 aligned policy templates. Each template represents a **fully-written, audit-ready** policy that you can adapt to your organisation by filling in the placeholders.
+**21 policies, 23 registers, 8 plans & reports — everything you need to build an ISO 27001-compliant ISMS.** Bilingual (DE + EN), audit-ready, free to use.
 
-These templates are maintained by the team behind [Cenedril](https://cenedril.ch) — an ISMS automation platform. If wrangling a dozen Markdown files, keeping them consistent, cross-referencing controls and generating the final PDFs starts to feel like a second job, that is exactly what Cenedril is built for. But the templates themselves are yours to keep, fork and modify. No strings attached.
+Each document is a fully written template with placeholders. Replace `[YOUR_ORGANISATION_NAME]` and the other placeholders, review the defaults, get management approval — done.
 
-## Languages
+> **Browse with context:** The [Cenedril Wiki](https://cenedril.net/wiki/starter-kit/) renders every document with explanations, FAQs, and a full ISO 27001 coverage matrix. Community contributions merged here appear on the wiki automatically.
 
-Every policy is available in:
+## What's included
 
-- [`en/`](en/) — English
-- [`de/`](de/) — German (Standard German, with ß)
-
-## Available policies
-
-| Policy | EN | DE | ISO clauses |
+| Category | Count | Formats | Folder |
 |---|---|---|---|
-| Information Security Policy | [en/information-security-policy.md](en/information-security-policy.md) | [de/informationssicherheitsrichtlinie.md](de/informationssicherheitsrichtlinie.md) | 5.1–5.4, 5.31, 5.35, 5.36 |
-| Risk Management Policy | [en/risk-management-policy.md](en/risk-management-policy.md) | [de/risikomanagement-richtlinie.md](de/risikomanagement-richtlinie.md) | 6.1, 6.2, 8.2, 8.3 |
-| Policy Governance & Document Control | [en/policy-governance-and-document-control-policy.md](en/policy-governance-and-document-control-policy.md) | [de/richtlinie-zur-dokumentenlenkung.md](de/richtlinie-zur-dokumentenlenkung.md) | 5.1, 5.36, 5.37 |
-| Acceptable Use Policy | [en/acceptable-use-policy.md](en/acceptable-use-policy.md) | [de/richtlinie-zur-akzeptablen-nutzung.md](de/richtlinie-zur-akzeptablen-nutzung.md) | 5.10 |
-| Access Control Policy | [en/access-control-policy.md](en/access-control-policy.md) | [de/zugriffskontroll-richtlinie.md](de/zugriffskontroll-richtlinie.md) | 5.15–5.18, 8.2–8.5 |
-| HR Security Policy | [en/hr-security-policy.md](en/hr-security-policy.md) | [de/richtlinie-zur-personalsicherheit.md](de/richtlinie-zur-personalsicherheit.md) | 6.1–6.6 |
-| Information Classification & Labelling Policy | [en/information-classification-and-labelling-policy.md](en/information-classification-and-labelling-policy.md) | [de/richtlinie-zur-informationsklassifizierung-und-kennzeichnung.md](de/richtlinie-zur-informationsklassifizierung-und-kennzeichnung.md) | 5.12, 5.13 |
-| Information Transfer Policy | [en/information-transfer-policy.md](en/information-transfer-policy.md) | [de/richtlinie-zum-informationstransfer.md](de/richtlinie-zum-informationstransfer.md) | 5.14 |
-| Business Continuity Policy | [en/business-continuity-policy.md](en/business-continuity-policy.md) | [de/richtlinie-zur-geschaeftskontinuitaet.md](de/richtlinie-zur-geschaeftskontinuitaet.md) | 5.29, 5.30 |
-| Supplier Security Policy | [en/supplier-security-policy.md](en/supplier-security-policy.md) | [de/richtlinie-zur-lieferantensicherheit.md](de/richtlinie-zur-lieferantensicherheit.md) | 5.19–5.23 |
-| Security Operations Policy | [en/security-operations-policy.md](en/security-operations-policy.md) | [de/richtlinie-zu-security-operations.md](de/richtlinie-zu-security-operations.md) | 5.5–5.7, 5.24–5.28, 8.8, 8.32 |
-| Intellectual Property Rights Policy | [en/intellectual-property-rights-policy.md](en/intellectual-property-rights-policy.md) | [de/richtlinie-zu-rechten-des-geistigen-eigentums.md](de/richtlinie-zu-rechten-des-geistigen-eigentums.md) | 5.32 |
-| Project Management Security Policy | [en/project-management-security-policy.md](en/project-management-security-policy.md) | [de/richtlinie-zu-informationssicherheit-im-projektmanagement.md](de/richtlinie-zu-informationssicherheit-im-projektmanagement.md) | 5.8 |
-| Remote Working & BYOD Policy | [en/remote-working-and-byod-policy.md](en/remote-working-and-byod-policy.md) | [de/richtlinie-zu-telearbeit-und-byod.md](de/richtlinie-zu-telearbeit-und-byod.md) | 6.7 |
-| Physical Security Policy | [en/physical-security-policy.md](en/physical-security-policy.md) | [de/richtlinie-zur-physischen-sicherheit.md](de/richtlinie-zur-physischen-sicherheit.md) | 7.1–7.14 |
-| Endpoint Security & Malware Protection Policy | [en/endpoint-security-and-malware-protection-policy.md](en/endpoint-security-and-malware-protection-policy.md) | [de/richtlinie-zu-endpunktsicherheit-und-malware-schutz.md](de/richtlinie-zu-endpunktsicherheit-und-malware-schutz.md) | 8.1, 8.7 |
-| Cryptography Policy | [en/cryptography-policy.md](en/cryptography-policy.md) | [de/kryptographie-richtlinie.md](de/kryptographie-richtlinie.md) | 8.24 |
-| Data Deletion, Masking & Leakage Prevention Policy | [en/data-deletion-masking-and-leakage-prevention-policy.md](en/data-deletion-masking-and-leakage-prevention-policy.md) | [de/richtlinie-zu-datenloeschung-maskierung-und-leckagenvermeidung.md](de/richtlinie-zu-datenloeschung-maskierung-und-leckagenvermeidung.md) | 8.10–8.12 |
-| IT Operations Policy | [en/it-operations-policy.md](en/it-operations-policy.md) | [de/richtlinie-zum-it-betrieb.md](de/richtlinie-zum-it-betrieb.md) | 8.8, 8.13–8.17, 8.20–8.23 |
-| Configuration & Change Management Policy | [en/configuration-and-change-management-policy.md](en/configuration-and-change-management-policy.md) | [de/richtlinie-zu-konfigurations-und-aenderungsmanagement.md](de/richtlinie-zu-konfigurations-und-aenderungsmanagement.md) | 8.9, 8.19, 8.32 |
-| Secure Development Policy | [en/secure-development-policy.md](en/secure-development-policy.md) | [de/richtlinie-zu-sicherer-softwareentwicklung.md](de/richtlinie-zu-sicherer-softwareentwicklung.md) | 8.25–8.31, 8.33, 8.34 |
+| Policies | 21 | Markdown | [`en/`](en/) · [`de/`](de/) |
+| Registers | 23 | CSV | [`registers/`](registers/) · [`registers-de/`](registers-de/) |
+| Plans & Reports | 8 | Markdown | [`templates/`](templates/) · [`templates-de/`](templates-de/) |
+
+## ISO 27001 Coverage
+
+The starter kit covers **all 93 Annex A controls** and **all ISMS clauses (4–10)**. The table below shows which document addresses which requirement.
+
+### ISMS Clauses (4–10)
+
+| Clause | Title | Covered by |
+|---|---|---|
+| 4.1 | Understanding the organisation and its context | Information Security Policy, Stakeholder Requirements Register |
+| 4.2 | Needs and expectations of interested parties | Information Security Policy, Stakeholder Requirements Register |
+| 4.3 | Determining the scope of the ISMS | Information Security Policy |
+| 4.4 | Information security management system | Information Security Policy |
+| 5.1 | Leadership and commitment | Information Security Policy |
+| 5.2 | Information security policy | Information Security Policy |
+| 5.3 | Organisational roles, responsibilities and authorities | Information Security Policy, RACI Matrix |
+| 6.1 | Actions to address risks and opportunities | Risk Management Policy, Risk Register |
+| 6.1.3 | Information security risk treatment | Risk Treatment Plan, Statement of Applicability |
+| 6.2 | Information security objectives | Risk Management Policy, Security Objectives Register |
+| 7.1 | Resources | Information Security Policy |
+| 7.2 | Competence | HR Security Policy, Competence Matrix |
+| 7.3 | Awareness | Information Security Policy, HR Security Policy, Training Register |
+| 7.4 | Communication | Communication Plan |
+| 7.5 | Documented information | Information Security Policy, Document Control Register |
+| 8.1 | Operational planning and control | Information Security Policy |
+| 8.2 | Information security risk assessment | Risk Management Policy, Risk Register |
+| 8.3 | Information security risk treatment | Risk Management Policy |
+| 9.1 | Monitoring, measurement, analysis and evaluation | Information Security Policy, Security Objectives Register |
+| 9.2 | Internal audit | Information Security Policy, Internal Audit Plan & Report |
+| 9.3 | Management review | Information Security Policy, Management Review Minutes |
+| 10.1 | Continual improvement | Information Security Policy, CAPA Register |
+| 10.2 | Nonconformity and corrective action | Information Security Policy, CAPA Register |
+
+### A.5 — Organisational Controls
+
+| Control | Title | Covered by |
+|---|---|---|
+| A.5.1 | Policies for information security | Policy Governance, Information Security Policy |
+| A.5.2 | Information security roles and responsibilities | Information Security Policy |
+| A.5.3 | Segregation of duties | Access Control Policy |
+| A.5.4 | Management responsibilities | Information Security Policy |
+| A.5.5 | Contact with authorities | Security Operations Policy |
+| A.5.6 | Contact with special interest groups | Security Operations Policy |
+| A.5.7 | Threat intelligence | Security Operations Policy, Threat Register |
+| A.5.8 | Information security in project management | Project Management Security Policy |
+| A.5.9 | Inventory of information and other associated assets | Asset Register |
+| A.5.10 | Acceptable use of information and other associated assets | Acceptable Use Policy |
+| A.5.11 | Return of assets | HR Security Policy |
+| A.5.12 | Classification of information | Information Classification Policy |
+| A.5.13 | Labelling of information | Information Classification Policy |
+| A.5.14 | Information transfer | Information Transfer Policy |
+| A.5.15 | Access control | Access Control Policy |
+| A.5.16 | Identity management | Access Control Policy |
+| A.5.17 | Authentication information | Access Control Policy |
+| A.5.18 | Access rights | Access Control Policy |
+| A.5.19 | Information security in supplier relationships | Supplier Security Policy, Supplier Register |
+| A.5.20 | Addressing information security within supplier agreements | Supplier Security Policy |
+| A.5.21 | Managing information security in the ICT supply chain | Supplier Security Policy |
+| A.5.22 | Monitoring, review and change management of supplier services | Supplier Security Policy, Supplier Register |
+| A.5.23 | Information security for use of cloud services | Supplier Security Policy |
+| A.5.24 | Incident management planning and preparation | Security Operations Policy, Incident Register, Incident Response Runbooks, Crisis Communication |
+| A.5.25 | Assessment and decision on information security events | Security Operations Policy, Incident Register |
+| A.5.26 | Response to information security incidents | Security Operations Policy, Incident Register, Incident Response Runbooks, Crisis Communication |
+| A.5.27 | Learning from information security incidents | Security Operations Policy |
+| A.5.28 | Collection of evidence | Security Operations Policy |
+| A.5.29 | Information security during disruption | Business Continuity Policy, Business Continuity Plan, Exercise Log |
+| A.5.30 | ICT readiness for business continuity | Business Continuity Policy, Business Continuity Plan, Business Impact Analysis, DR Register |
+| A.5.31 | Legal, statutory, regulatory and contractual requirements | Legal Compliance Register |
+| A.5.32 | Intellectual property rights | Intellectual Property Rights Policy |
+| A.5.33 | Protection of records | Data Deletion & DLP Policy, Records Retention Schedule |
+| A.5.34 | Privacy and protection of PII | Data Deletion & DLP Policy |
+| A.5.35 | Independent review of information security | Policy Governance |
+| A.5.36 | Compliance with policies, rules and standards | Policy Governance |
+| A.5.37 | Documented operating procedures | Policy Governance |
+
+### A.6 — People Controls
+
+| Control | Title | Covered by |
+|---|---|---|
+| A.6.1 | Screening | HR Security Policy |
+| A.6.2 | Terms and conditions of employment | HR Security Policy |
+| A.6.3 | Information security awareness, education and training | HR Security Policy, Training Register |
+| A.6.4 | Disciplinary process | HR Security Policy |
+| A.6.5 | Responsibilities after termination or change of employment | HR Security Policy |
+| A.6.6 | Confidentiality or non-disclosure agreements | HR Security Policy |
+| A.6.7 | Remote working | Remote Working & BYOD Policy |
+| A.6.8 | Information security event reporting | Security Operations Policy |
+
+### A.7 — Physical Controls
+
+| Control | Title | Covered by |
+|---|---|---|
+| A.7.1 | Physical security perimeters | Physical Security Policy |
+| A.7.2 | Physical entry | Physical Security Policy |
+| A.7.3 | Securing offices, rooms and facilities | Physical Security Policy |
+| A.7.4 | Physical security monitoring | Physical Security Policy |
+| A.7.5 | Protecting against physical and environmental threats | Physical Security Policy |
+| A.7.6 | Working in secure areas | Physical Security Policy |
+| A.7.7 | Clear desk and clear screen | Physical Security Policy |
+| A.7.8 | Equipment siting and protection | Physical Security Policy |
+| A.7.9 | Security of assets off-premises | Physical Security Policy |
+| A.7.10 | Storage media | Physical Security Policy |
+| A.7.11 | Supporting utilities | Physical Security Policy |
+| A.7.12 | Cabling security | Physical Security Policy |
+| A.7.13 | Equipment maintenance | Physical Security Policy |
+| A.7.14 | Secure disposal or re-use of equipment | Physical Security Policy |
+
+### A.8 — Technological Controls
+
+| Control | Title | Covered by |
+|---|---|---|
+| A.8.1 | User endpoint devices | Endpoint Security Policy |
+| A.8.2 | Privileged access rights | Access Control Policy |
+| A.8.3 | Information access restriction | Access Control Policy |
+| A.8.4 | Access to source code | Access Control Policy |
+| A.8.5 | Secure authentication | Access Control Policy |
+| A.8.6 | Capacity management | IT Operations Policy |
+| A.8.7 | Protection against malware | Endpoint Security Policy |
+| A.8.8 | Management of technical vulnerabilities | IT Operations Policy, Security Operations Policy, Vulnerability Register, Pentest Report |
+| A.8.9 | Configuration management | Configuration & Change Management Policy |
+| A.8.10 | Information deletion | Data Deletion & DLP Policy, Deletion Evidence Log |
+| A.8.11 | Data masking | Data Deletion & DLP Policy |
+| A.8.12 | Data leakage prevention | Data Deletion & DLP Policy |
+| A.8.13 | Information backup | IT Operations Policy |
+| A.8.14 | Redundancy of information processing facilities | IT Operations Policy |
+| A.8.15 | Logging | IT Operations Policy |
+| A.8.16 | Monitoring activities | IT Operations Policy |
+| A.8.17 | Clock synchronisation | IT Operations Policy |
+| A.8.18 | Use of privileged utility programs | IT Operations Policy |
+| A.8.19 | Installation of software on operational systems | IT Operations Policy |
+| A.8.20 | Networks security | IT Operations Policy |
+| A.8.21 | Security of network services | IT Operations Policy |
+| A.8.22 | Segregation of networks | IT Operations Policy |
+| A.8.23 | Web filtering | IT Operations Policy |
+| A.8.24 | Use of cryptography | Cryptography Policy, Cryptography Register |
+| A.8.25 | Secure development life cycle | Secure Development Policy |
+| A.8.26 | Application security requirements | Secure Development Policy |
+| A.8.27 | Secure system architecture and engineering principles | Secure Development Policy |
+| A.8.28 | Secure coding | Secure Development Policy |
+| A.8.29 | Security testing in development and acceptance | Secure Development Policy, Pentest Report |
+| A.8.30 | Outsourced development | Secure Development Policy |
+| A.8.31 | Separation of development, test and production environments | Secure Development Policy |
+| A.8.32 | Change management | Configuration & Change Management Policy, Security Operations Policy, Change Log |
+| A.8.33 | Test information | Secure Development Policy |
+| A.8.34 | Protection of information systems during audit testing | Secure Development Policy |
 
 ## How to use
 
-1. Pick the policy and the language you need.
-2. Copy the file into your own repo or document store.
-3. Replace every `[PLACEHOLDER]` with your own value. The common ones are:
+1. Pick the documents you need and the language (EN or DE).
+2. Copy them into your own repo, wiki, or document store.
+3. Replace every `[PLACEHOLDER]` with your own values. The common ones:
    - `[YOUR_ORGANISATION_NAME]` — the legal name of your organisation
    - `[ISMS_SCOPE_DESCRIPTION]` — a one-line description of your ISMS scope
    - `[APPROVER_NAME]` / `[APPROVAL_DATE]` — document control metadata
-4. Review the **methodology defaults** (risk matrix dimensions, scale sizes, thresholds) and adjust them to match how your organisation actually works. The defaults shown reflect a common 5×5 matrix — they are a reasonable starting point, not a mandate.
-5. Have the policy approved by top management and publish it in your document control system.
+4. Review the methodology defaults (risk matrix dimensions, thresholds) and adjust them to match your organisation.
+5. Have the policies approved by management and publish them in your document control system.
 
-## What's inside each template
-
-Each template is the "maximum state" output of the corresponding Cenedril policy generator: every optional section is present, every placeholder is filled with a sensible default, and every ISO clause reference is in place. If you need less, delete. If you need more, extend.
-
-## Licence
-
-These templates are released under the **Creative Commons Attribution 4.0** licence (CC BY 4.0). You may use, modify and redistribute them — including commercially — provided you keep the attribution.
+For detailed context on each document — what it covers, why it matters, how to roll it out, and frequently asked questions — visit the [Cenedril Wiki](https://cenedril.net/wiki/starter-kit/).
 
 ## Contributing
 
-Found a typo, an outdated clause reference or a sentence that reads awkwardly? Pull requests welcome. 
+Found a typo, an outdated clause reference, or a sentence that reads awkwardly? Pull requests welcome.
+
+**Want to add a language?** We maintain German and English ourselves. We could generate translations with AI, but we can only verify what we actually speak — so we leave additional languages to the community. Create a new language folder (e.g. `fr/` for French policies, `registers-fr/` for French registers) and submit a PR. We will list community translations as community-maintained versions on the wiki, clearly marked with the contributor's name.
+
+All contributions merged here are automatically reflected on [cenedril.net/wiki](https://cenedril.net/wiki/starter-kit/).
+
+## Licence
+
+All documents are released under **Creative Commons Attribution 4.0** (CC BY 4.0). Use, modify, and redistribute them — including commercially — as long as you keep the attribution.
+
+## About Cenedril
+
+This starter kit is maintained by the team behind [Cenedril](https://cenedril.net) — an ISMS automation platform that turns these templates into a living management system with versioning, workflow integration, PDF generation, and audit trails.
+
+The templates are yours to keep, fork, and modify. No strings attached.
