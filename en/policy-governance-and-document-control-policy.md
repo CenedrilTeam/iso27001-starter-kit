@@ -1,4 +1,4 @@
-# Policy Governance & Document Control
+# ISMS Governance Policy
 
 > **Document control**  
 > Owner: [POLICY_OWNER_ROLE, e.g. Information Security Officer]  

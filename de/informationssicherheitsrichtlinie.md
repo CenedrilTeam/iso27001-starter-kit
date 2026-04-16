@@ -142,9 +142,9 @@ Der detaillierte Kommunikationsplan — einschließlich Themen, Häufigkeiten, v
 
 ## 13. Dokumentierte Informationen (7.5)
 
-Das ISMS umfasst von ISO 27001 geforderte dokumentierte Informationen sowie dokumentierte Informationen, die die Organisation für die Wirksamkeit des ISMS als erforderlich erachtet. Dokumentierte Informationen werden gemäß dem Rahmenwerk der Dokumentenlenkung erstellt, aktualisiert und gelenkt. Dieses definiert:
+Das ISMS umfasst von ISO 27001 geforderte dokumentierte Informationen sowie dokumentierte Informationen, die die Organisation für die Wirksamkeit des ISMS als erforderlich erachtet. Dokumentierte Informationen werden gemäß dem Rahmenwerk der ISMS-Governance-Richtlinie erstellt, aktualisiert und gelenkt. Dieses definiert:
 
-- **Dokumentenhierarchie:** Diese Informationssicherheitsrichtlinie und die Risikomanagement-Richtlinie an der Spitze, gefolgt von themenspezifischen Richtlinien für einzelne Sicherheitsbereiche, unterstützenden Management-Dokumenten und operativen Aufzeichnungen. Die vollständige Hierarchie und Themenabdeckung ist in der Richtlinie zur Dokumentenlenkung beschrieben.
+- **Dokumentenhierarchie:** Diese Informationssicherheitsrichtlinie und die Risikomanagement-Richtlinie an der Spitze, gefolgt von themenspezifischen Richtlinien für einzelne Sicherheitsbereiche, unterstützenden Management-Dokumenten und operativen Aufzeichnungen. Die vollständige Hierarchie und Themenabdeckung ist in der ISMS-Governance-Richtlinie beschrieben.
 - **Erstellung und Freigabe:** Jedes Dokument durchläuft einen definierten Lebenszyklus von Entwurf über Prüfung und Freigabe bis zur Veröffentlichung mit benannten Autoren, Prüfern und Genehmigern.
 - **Versionskontrolle:** Alle Änderungen an dokumentierten Informationen werden mit Versionshistorie, Änderungsbeschreibungen und Freigabenachweisen nachverfolgt.
 - **Verteilung und Zugang:** Aktuelle Versionen stehen allen Personen zur Verfügung, die sie benötigen. Veraltete Versionen werden aus der aktiven Nutzung entfernt, bleiben aber für Audit- und historische Zwecke abrufbar.

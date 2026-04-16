@@ -1,4 +1,4 @@
-# Richtlinie zur Dokumentenlenkung
+# ISMS-Governance-Richtlinie
 
 > **Dokumentenkontrolle**  
 > Eigentümer: [RICHTLINIEN_EIGENTÜMER_ROLLE, z. B. Informationssicherheitsbeauftragte/r]  

@@ -142,9 +142,9 @@ The detailed communication plan — including topics, frequencies, responsible p
 
 ## 13. Documented Information (7.5)
 
-The ISMS includes documented information required by ISO 27001 and documented information determined by the organisation to be necessary for ISMS effectiveness. Documented information is created, updated and controlled according to the Policy Governance framework, which defines:
+The ISMS includes documented information required by ISO 27001 and documented information determined by the organisation to be necessary for ISMS effectiveness. Documented information is created, updated and controlled according to the ISMS Governance Policy framework, which defines:
 
-- **Document hierarchy:** This Information Security Policy and the Risk Management Policy at the top, followed by topic-specific policies covering individual security domains, supporting management documents, and operational records. The full hierarchy and topic coverage is described in the Policy Governance policy.
+- **Document hierarchy:** This Information Security Policy and the Risk Management Policy at the top, followed by topic-specific policies covering individual security domains, supporting management documents, and operational records. The full hierarchy and topic coverage is described in the ISMS Governance Policy.
 - **Creation and approval:** Each document follows a defined lifecycle from draft through review and approval to publication, with identified authors, reviewers and approvers.
 - **Version control:** All changes to documented information are tracked with version history, change descriptions and approval records.
 - **Distribution and access:** Current versions are available to all personnel who need them. Obsolete versions are removed from active use but remain queryable for audit and historical reference.
